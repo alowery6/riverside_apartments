@@ -36,11 +36,15 @@
   #map { height: 180px; }
 
   <script>
-    var map = L.map("map");
+    var map = L.map("map", {center: [33.9756, -117.3311], zoom: 12});    
 
-    map.setView([-117.331, 33.976], 12);
-
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/{style}/{z}/{x}/{y}{scale}.png', { attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' }).addTo(map);
+    L.tileLayer(
+      'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+        subdomains: 'abcd',
+        maxZoom: 20
+      }
+    ).addTo(map);
 
 
 
