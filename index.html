@@ -2794,7 +2794,17 @@
       ]
     }
 
-    L.geoJSON(geojson_df).addTo(map);
+    function onEachFeature(feature, layer){
+      let popupContent = "<b>" + feature.properties.LONG_NAME + "</b><br>" + feature.properties.LIFESTYLE_CAT + "<br>" + feature.properties.ADDR;
+
+      layer.bindPopup(popupContent);
+
+
+    }
+
+    L.geoJSON(geojson_df, {
+        onEachFeature: onEachFeature
+    }).addTo(map);
 
 
   </script>
