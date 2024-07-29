@@ -21,12 +21,15 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" 
     crossorigin=""/>
-
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://github.com/lennardv2/Leaflet.awesome-markers/blob/b17993e25db48db7bedd9f613b89d0ac0d733e32/dist/leaflet.awesome-markers.css">
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" 
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" 
     crossorigin=""></script>
 
   <script src="https://gmousse.github.io/dataframe-js/dist/dataframe.min.js"></script>
+
+
 
 </head>
 
@@ -38,7 +41,7 @@
   #map { height: 180px; }
 
   <script>
-    var map = L.map("map", {center: [33.9806, -117.3755], zoom: 15});    
+    var map = L.map("map", {center: [33.9806, -117.3755], zoom: 13});    
 
     L.tileLayer(
       'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
@@ -2796,15 +2799,29 @@
 
     function onEachFeature(feature, layer){
       let popupContent = "<b>" + feature.properties.LONG_NAME + "</b><br>" + feature.properties.LIFESTYLE_CAT + "<br>" + feature.properties.ADDR;
-
       layer.bindPopup(popupContent);
-
-
     }
 
+
+
+
     L.geoJSON(geojson_df, {
-        onEachFeature: onEachFeature
+        onEachFeature: onEachFeature,
+        pointToLayer: function (feature, latlng){
+          return L.circleMarker(latlng, {
+            icon: {
+              
+            },
+            radius: 8,
+            fillColor: feature.properties.COLOR,
+            color: "#FFFFFF",
+            weight: 1,
+            opacity: 1,
+            fillOpacity: 0.6
+          })
+        }
     }).addTo(map);
+
 
 
   </script>

@@ -14,7 +14,8 @@
         "LONG_NAME": "LAX",
         "LIFESTYLE_CAT": "Airport",
         "ADDR": "1 World Way, Los Angeles, CA 90045",
-        "ICON": "fa-plane-departure",
+        "ICON": "plane-departure",
+        "ICON_LINE": "<i class = 'fa-solid fa-plane-departure'></i>",
         "ICON_STR": "plane",
         "COLOR": "cadetblue",
         "lat": 33.9459832,
@@ -25,7 +26,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.383989385484,
+          -122.3839894,
           37.622452
         ]
       },
@@ -34,18 +35,19 @@
         "LONG_NAME": "SFO",
         "LIFESTYLE_CAT": "Airport",
         "ADDR": "780 S Airport Blvd, San Francisco, CA 94128",
-        "ICON": "fa-plane-departure",
+        "ICON": "plane-departure",
+        "ICON_LINE": "<i class = 'fa-solid fa-plane-departure'></i>",
         "ICON_STR": "plane",
         "COLOR": "cadetblue",
         "lat": 37.622452,
-        "long": -122.383989385484
+        "long": -122.3839894
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.429816065224,
+          -84.42981607,
           33.63740085
         ]
       },
@@ -54,11 +56,12 @@
         "LONG_NAME": "ATL",
         "LIFESTYLE_CAT": "Airport",
         "ADDR": "6000 North Terminal Pkwy, Atlanta, GA 30320",
-        "ICON": "fa-plane-departure",
+        "ICON": "plane-departure",
+        "ICON_LINE": "<i class = 'fa-solid fa-plane-departure'></i>",
         "ICON_STR": "plane",
         "COLOR": "cadetblue",
         "lat": 33.63740085,
-        "long": -84.429816065224
+        "long": -84.42981607
       }
     },
     {
@@ -74,7 +77,8 @@
         "LONG_NAME": "DEN",
         "LIFESTYLE_CAT": "Airport",
         "ADDR": "8500 Pena Blvd, Denver, CO 80249",
-        "ICON": "fa-plane-departure",
+        "ICON": "plane-departure",
+        "ICON_LINE": "<i class = 'fa-solid fa-plane-departure'></i>",
         "ICON_STR": "plane",
         "COLOR": "cadetblue",
         "lat": 39.8410082,
@@ -85,7 +89,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.161119791924,
+          -115.1611198,
           36.0861034
         ]
       },
@@ -94,11 +98,12 @@
         "LONG_NAME": "LAS",
         "LIFESTYLE_CAT": "Airport",
         "ADDR": "5757 Wayne Newton Blvd, Las Vegas, NV 89119",
-        "ICON": "fa-plane-departure",
+        "ICON": "plane-departure",
+        "ICON_LINE": "<i class = 'fa-solid fa-plane-departure'></i>",
         "ICON_STR": "plane",
         "COLOR": "cadetblue",
         "lat": 36.0861034,
-        "long": -115.161119791924
+        "long": -115.1611198
       }
     },
     {
@@ -114,7 +119,8 @@
         "LONG_NAME": "ONT",
         "LIFESTYLE_CAT": "Airport",
         "ADDR": "2900 E Airport Dr, Ontario, CA 91761",
-        "ICON": "fa-plane-departure",
+        "ICON": "plane-departure",
+        "ICON_LINE": "<i class = 'fa-solid fa-plane-departure'></i>",
         "ICON_STR": "plane",
         "COLOR": "cadetblue",
         "lat": 34.0603862,
@@ -125,7 +131,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.303083291351,
+          -117.3030833,
           33.9477003
         ]
       },
@@ -134,18 +140,19 @@
         "LONG_NAME": "Castlerock",
         "LIFESTYLE_CAT": "Apartment",
         "ADDR": "5700 Lochmoor Dr, Riverside, CA 92507",
-        "ICON": "fa-house-chimney",
+        "ICON": "house-chimney",
+        "ICON_LINE": "<i class = 'fa-solid fa-house-chimney'></i>",
         "ICON_STR": "house",
         "COLOR": "pink",
         "lat": 33.9477003,
-        "long": -117.303083291351
+        "long": -117.3030833
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.371541312462,
+          -117.3715413,
           33.988880161677
         ]
       },
@@ -154,18 +161,19 @@
         "LONG_NAME": "Centerpointe at Market",
         "LIFESTYLE_CAT": "Apartment",
         "ADDR": "3145 Market St, Riverside, CA 92501",
-        "ICON": "fa-house-chimney",
+        "ICON": "house-chimney",
+        "ICON_LINE": "<i class = 'fa-solid fa-house-chimney'></i>",
         "ICON_STR": "house",
         "COLOR": "pink",
         "lat": 33.988880161677,
-        "long": -117.371541312462
+        "long": -117.3715413
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.392330108992,
+          -117.3923301,
           33.956642617894
         ]
       },
@@ -174,18 +182,19 @@
         "LONG_NAME": "Citron Apartment Homes",
         "LIFESTYLE_CAT": "Apartment",
         "ADDR": "3661 Merrill Ave, Riverside, CA 92506",
-        "ICON": "fa-house-chimney",
+        "ICON": "house-chimney",
+        "ICON_LINE": "<i class = 'fa-solid fa-house-chimney'></i>",
         "ICON_STR": "house",
         "COLOR": "pink",
         "lat": 33.956642617894,
-        "long": -117.392330108992
+        "long": -117.3923301
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.373922494133,
+          -117.3739225,
           33.98206845
         ]
       },
@@ -194,18 +203,19 @@
         "LONG_NAME": "Imperial Hardware Lofts",
         "LIFESTYLE_CAT": "Apartment",
         "ADDR": "3750 Main St, Riverside, CA 92501",
-        "ICON": "fa-house-chimney",
+        "ICON": "house-chimney",
+        "ICON_LINE": "<i class = 'fa-solid fa-house-chimney'></i>",
         "ICON_STR": "house",
         "COLOR": "pink",
         "lat": 33.98206845,
-        "long": -117.373922494133
+        "long": -117.3739225
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.406074394974,
+          -117.4060744,
           33.93775445
         ]
       },
@@ -214,18 +224,19 @@
         "LONG_NAME": "Madison Park",
         "LIFESTYLE_CAT": "Apartment",
         "ADDR": "3571 Madison St, Riverside, CA 92504",
-        "ICON": "fa-house-chimney",
+        "ICON": "house-chimney",
+        "ICON_LINE": "<i class = 'fa-solid fa-house-chimney'></i>",
         "ICON_STR": "house",
         "COLOR": "pink",
         "lat": 33.93775445,
-        "long": -117.406074394974
+        "long": -117.4060744
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.374624566565,
+          -117.3746246,
           33.983441978853
         ]
       },
@@ -234,18 +245,19 @@
         "LONG_NAME": "MARK Riverside",
         "LIFESTYLE_CAT": "Apartment",
         "ADDR": "3777 Mission Inn Ave, Riverside, CA 92501",
-        "ICON": "fa-house-chimney",
+        "ICON": "house-chimney",
+        "ICON_LINE": "<i class = 'fa-solid fa-house-chimney'></i>",
         "ICON_STR": "house",
         "COLOR": "pink",
         "lat": 33.983441978853,
-        "long": -117.374624566565
+        "long": -117.3746246
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.365435489614,
+          -117.3654355,
           33.978981166408
         ]
       },
@@ -254,11 +266,12 @@
         "LONG_NAME": "Mission Lofts",
         "LIFESTYLE_CAT": "Apartment",
         "ADDR": "3050 Mission Inn Ave, Riverside, CA 92507",
-        "ICON": "fa-house-chimney",
+        "ICON": "house-chimney",
+        "ICON_LINE": "<i class = 'fa-solid fa-house-chimney'></i>",
         "ICON_STR": "house",
         "COLOR": "pink",
         "lat": 33.978981166408,
-        "long": -117.365435489614
+        "long": -117.3654355
       }
     },
     {
@@ -274,7 +287,8 @@
         "LONG_NAME": "Sorano Apartments",
         "LIFESTYLE_CAT": "Apartment",
         "ADDR": "12406 Clark St, Moreno Valley, CA 92557",
-        "ICON": "fa-house-chimney",
+        "ICON": "house-chimney",
+        "ICON_LINE": "<i class = 'fa-solid fa-house-chimney'></i>",
         "ICON_STR": "house",
         "COLOR": "pink",
         "lat": 33.9496013,
@@ -285,7 +299,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.435242869565,
+          -117.4352429,
           33.91774523913
         ]
       },
@@ -294,18 +308,19 @@
         "LONG_NAME": "The Hawthorne",
         "LIFESTYLE_CAT": "Apartment",
         "ADDR": "9170 Indiana Ave, Riverside, CA 92503",
-        "ICON": "fa-house-chimney",
+        "ICON": "house-chimney",
+        "ICON_LINE": "<i class = 'fa-solid fa-house-chimney'></i>",
         "ICON_STR": "house",
         "COLOR": "pink",
         "lat": 33.91774523913,
-        "long": -117.435242869565
+        "long": -117.4352429
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.343973986577,
+          -117.343974,
           33.987508006711
         ]
       },
@@ -314,18 +329,19 @@
         "LONG_NAME": "The Met Apartments",
         "LIFESTYLE_CAT": "Apartment",
         "ADDR": "2770 Atlanta Ave, Riverside, CA 92507",
-        "ICON": "fa-house-chimney",
+        "ICON": "house-chimney",
+        "ICON_LINE": "<i class = 'fa-solid fa-house-chimney'></i>",
         "ICON_STR": "house",
         "COLOR": "pink",
         "lat": 33.987508006711,
-        "long": -117.343973986577
+        "long": -117.343974
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.28329967357,
+          -117.2832997,
           33.930255385947
         ]
       },
@@ -334,18 +350,19 @@
         "LONG_NAME": "Villa Camille Apartments",
         "LIFESTYLE_CAT": "Apartment",
         "ADDR": "13068 Edgemont St, Moreno Valley, CA 92553",
-        "ICON": "fa-house-chimney",
+        "ICON": "house-chimney",
+        "ICON_LINE": "<i class = 'fa-solid fa-house-chimney'></i>",
         "ICON_STR": "house",
         "COLOR": "pink",
         "lat": 33.930255385947,
-        "long": -117.28329967357
+        "long": -117.2832997
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.45698750314,
+          -117.4569875,
           33.9098266
         ]
       },
@@ -354,18 +371,19 @@
         "LONG_NAME": "Sephora",
         "LIFESTYLE_CAT": "Beauty",
         "ADDR": "2061 Galleria at Tyler, Riverside, CA 92503",
-        "ICON": "fa-spray-can-sparkles",
+        "ICON": "spray-can-sparkles",
+        "ICON_LINE": "<i class = 'fa-solid fa-spray-can-sparkles'></i>",
         "ICON_STR": "spray",
         "COLOR": "black",
         "lat": 33.9098266,
-        "long": -117.45698750314
+        "long": -117.4569875
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.327305658155,
+          -117.3273057,
           33.88913365
         ]
       },
@@ -374,19 +392,20 @@
         "LONG_NAME": "Sephora",
         "LIFESTYLE_CAT": "Beauty",
         "ADDR": "19260 Van Buren Boulevard, Riverside, CA 92508",
-        "ICON": "fa-spray-can-sparkles",
+        "ICON": "spray-can-sparkles",
+        "ICON_LINE": "<i class = 'fa-solid fa-spray-can-sparkles'></i>",
         "ICON_STR": "spray",
         "COLOR": "black",
         "lat": 33.88913365,
-        "long": -117.327305658155
+        "long": -117.3273057
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.532132135477,
-          34.112026486808
+          -117.5321321,
+          34.11202649
         ]
       },
       "type": "Feature",
@@ -394,18 +413,19 @@
         "LONG_NAME": "Sephora",
         "LIFESTYLE_CAT": "Beauty",
         "ADDR": "12506 N Mainstreet, Rancho Cucamonga, CA 91739",
-        "ICON": "fa-spray-can-sparkles",
+        "ICON": "spray-can-sparkles",
+        "ICON_LINE": "<i class = 'fa-solid fa-spray-can-sparkles'></i>",
         "ICON_STR": "spray",
         "COLOR": "black",
-        "lat": 34.112026486808,
-        "long": -117.532132135477
+        "lat": 34.11202649,
+        "long": -117.5321321
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.187677381655,
+          -117.1876774,
           33.9383256
         ]
       },
@@ -414,18 +434,19 @@
         "LONG_NAME": "Sephora",
         "LIFESTYLE_CAT": "Beauty",
         "ADDR": "27200 Eucalyptus Ave, Moreno Valley, CA 92555",
-        "ICON": "fa-spray-can-sparkles",
+        "ICON": "spray-can-sparkles",
+        "ICON_LINE": "<i class = 'fa-solid fa-spray-can-sparkles'></i>",
         "ICON_STR": "spray",
         "COLOR": "black",
         "lat": 33.9383256,
-        "long": -117.187677381655
+        "long": -117.1876774
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.202811354639,
+          -117.2028114,
           34.07311115
         ]
       },
@@ -434,18 +455,19 @@
         "LONG_NAME": "Sephora",
         "LIFESTYLE_CAT": "Beauty",
         "ADDR": "27540 W Lugonia Ave, Redlands, CA 92374",
-        "ICON": "fa-spray-can-sparkles",
+        "ICON": "spray-can-sparkles",
+        "ICON_LINE": "<i class = 'fa-solid fa-spray-can-sparkles'></i>",
         "ICON_STR": "spray",
         "COLOR": "black",
         "lat": 34.07311115,
-        "long": -117.202811354639
+        "long": -117.2028114
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.459854498201,
+          -117.4598545,
           33.90629485
         ]
       },
@@ -454,18 +476,19 @@
         "LONG_NAME": "Sephora",
         "LIFESTYLE_CAT": "Beauty",
         "ADDR": "3520 Tyler St, Riverside, CA 92503",
-        "ICON": "fa-spray-can-sparkles",
+        "ICON": "spray-can-sparkles",
+        "ICON_LINE": "<i class = 'fa-solid fa-spray-can-sparkles'></i>",
         "ICON_STR": "spray",
         "COLOR": "black",
         "lat": 33.90629485,
-        "long": -117.459854498201
+        "long": -117.4598545
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.472627667218,
+          -117.4726277,
           34.149768765766
         ]
       },
@@ -474,18 +497,19 @@
         "LONG_NAME": "Sephora",
         "LIFESTYLE_CAT": "Beauty",
         "ADDR": "14960 Summit Ave, Fontana, CA 92336",
-        "ICON": "fa-spray-can-sparkles",
+        "ICON": "spray-can-sparkles",
+        "ICON_LINE": "<i class = 'fa-solid fa-spray-can-sparkles'></i>",
         "ICON_STR": "spray",
         "COLOR": "black",
         "lat": 34.149768765766,
-        "long": -117.472627667218
+        "long": -117.4726277
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.552708847543,
+          -117.5527088,
           33.897682071638
         ]
       },
@@ -494,18 +518,19 @@
         "LONG_NAME": "Sephora",
         "LIFESTYLE_CAT": "Beauty",
         "ADDR": "470 Hidden Valley Pkwy, Corona, CA 92879",
-        "ICON": "fa-spray-can-sparkles",
+        "ICON": "spray-can-sparkles",
+        "ICON_LINE": "<i class = 'fa-solid fa-spray-can-sparkles'></i>",
         "ICON_STR": "spray",
         "COLOR": "black",
         "lat": 33.897682071638,
-        "long": -117.552708847543
+        "long": -117.5527088
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.550748676636,
+          -117.5507487,
           33.97836205
         ]
       },
@@ -514,11 +539,12 @@
         "LONG_NAME": "Sephora",
         "LIFESTYLE_CAT": "Beauty",
         "ADDR": "12315 Limonite Ave, Eastvale, CA 91752",
-        "ICON": "fa-spray-can-sparkles",
+        "ICON": "spray-can-sparkles",
+        "ICON_LINE": "<i class = 'fa-solid fa-spray-can-sparkles'></i>",
         "ICON_STR": "spray",
         "COLOR": "black",
         "lat": 33.97836205,
-        "long": -117.550748676636
+        "long": -117.5507487
       }
     },
     {
@@ -534,7 +560,8 @@
         "LONG_NAME": "Ulta",
         "LIFESTYLE_CAT": "Beauty",
         "ADDR": "3625 Riverside Plaza Dr, Riverside, CA 92506",
-        "ICON": "fa-spray-can-sparkles",
+        "ICON": "spray-can-sparkles",
+        "ICON_LINE": "<i class = 'fa-solid fa-spray-can-sparkles'></i>",
         "ICON_STR": "spray",
         "COLOR": "orange",
         "lat": 33.955083,
@@ -545,7 +572,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.37041674767,
+          -117.3704167,
           34.073737553075
         ]
       },
@@ -554,18 +581,19 @@
         "LONG_NAME": "Ulta",
         "LIFESTYLE_CAT": "Beauty",
         "ADDR": "1512 S Riverside Ave, Rialto, CA 92376",
-        "ICON": "fa-spray-can-sparkles",
+        "ICON": "spray-can-sparkles",
+        "ICON_LINE": "<i class = 'fa-solid fa-spray-can-sparkles'></i>",
         "ICON_STR": "spray",
         "COLOR": "orange",
         "lat": 34.073737553075,
-        "long": -117.37041674767
+        "long": -117.3704167
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.230583613994,
+          -117.2305836,
           33.8022378
         ]
       },
@@ -574,11 +602,12 @@
         "LONG_NAME": "Ulta",
         "LIFESTYLE_CAT": "Beauty",
         "ADDR": "1688 N Perris Blvd, Perris, CA 92571",
-        "ICON": "fa-spray-can-sparkles",
+        "ICON": "spray-can-sparkles",
+        "ICON_LINE": "<i class = 'fa-solid fa-spray-can-sparkles'></i>",
         "ICON_STR": "spray",
         "COLOR": "orange",
         "lat": 33.8022378,
-        "long": -117.230583613994
+        "long": -117.2305836
       }
     },
     {
@@ -594,7 +623,8 @@
         "LONG_NAME": "Ulta",
         "LIFESTYLE_CAT": "Beauty",
         "ADDR": "18418 Collier Ave, Lake Elsinore, CA 92530",
-        "ICON": "fa-spray-can-sparkles",
+        "ICON": "spray-can-sparkles",
+        "ICON_LINE": "<i class = 'fa-solid fa-spray-can-sparkles'></i>",
         "ICON_STR": "spray",
         "COLOR": "orange",
         "lat": 33.6899308,
@@ -605,7 +635,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.175455979592,
+          -117.175456,
           33.684127102041
         ]
       },
@@ -614,18 +644,19 @@
         "LONG_NAME": "Ulta",
         "LIFESTYLE_CAT": "Beauty",
         "ADDR": "30050 Haun Rd, Menifee, CA 92584",
-        "ICON": "fa-spray-can-sparkles",
+        "ICON": "spray-can-sparkles",
+        "ICON_LINE": "<i class = 'fa-solid fa-spray-can-sparkles'></i>",
         "ICON_STR": "spray",
         "COLOR": "orange",
         "lat": 33.684127102041,
-        "long": -117.175455979592
+        "long": -117.175456
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.45938664777,
+          -117.4593866,
           33.913157960255
         ]
       },
@@ -634,18 +665,19 @@
         "LONG_NAME": "Cannabis Store",
         "LIFESTYLE_CAT": "Cannabis",
         "ADDR": "10187 Magnolia Ave, Riverside, CA 92503",
-        "ICON": "fa-cannabis",
+        "ICON": "cannabis",
+        "ICON_LINE": "<i class = 'fa-solid fa-cannabis'></i>",
         "ICON_STR": "cannabis",
         "COLOR": "lightgreen",
         "lat": 33.913157960255,
-        "long": -117.45938664777
+        "long": -117.4593866
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.339293898024,
+          -117.3392939,
           34.015422
         ]
       },
@@ -654,18 +686,19 @@
         "LONG_NAME": "Cannabis Store",
         "LIFESTYLE_CAT": "Cannabis",
         "ADDR": "1270 Center St, Riverside, CA 92507",
-        "ICON": "fa-cannabis",
+        "ICON": "cannabis",
+        "ICON_LINE": "<i class = 'fa-solid fa-cannabis'></i>",
         "ICON_STR": "cannabis",
         "COLOR": "lightgreen",
         "lat": 34.015422,
-        "long": -117.339293898024
+        "long": -117.3392939
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.226222327338,
+          -117.2262223,
           33.916229251206
         ]
       },
@@ -674,18 +707,19 @@
         "LONG_NAME": "Cannabis Store",
         "LIFESTYLE_CAT": "Cannabis",
         "ADDR": "14070 Perris Blvd, Moreno Valley, CA 92553",
-        "ICON": "fa-cannabis",
+        "ICON": "cannabis",
+        "ICON_LINE": "<i class = 'fa-solid fa-cannabis'></i>",
         "ICON_STR": "cannabis",
         "COLOR": "lightgreen",
         "lat": 33.916229251206,
-        "long": -117.226222327338
+        "long": -117.2262223
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.283143535099,
+          -117.2831435,
           33.916741266771
         ]
       },
@@ -694,18 +728,19 @@
         "LONG_NAME": "Cannabis Store",
         "LIFESTYLE_CAT": "Cannabis",
         "ADDR": "21820 Alessandro Blvd, Moreno Valley, CA 92553",
-        "ICON": "fa-cannabis",
+        "ICON": "cannabis",
+        "ICON_LINE": "<i class = 'fa-solid fa-cannabis'></i>",
         "ICON_STR": "cannabis",
         "COLOR": "lightgreen",
         "lat": 33.916741266771,
-        "long": -117.283143535099
+        "long": -117.2831435
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.372801078351,
+          -117.3728011,
           33.98733835
         ]
       },
@@ -714,18 +749,19 @@
         "LONG_NAME": "Cannabis Store",
         "LIFESTYLE_CAT": "Cannabis",
         "ADDR": "3311 Market St, Riverside, CA 92501",
-        "ICON": "fa-cannabis",
+        "ICON": "cannabis",
+        "ICON_LINE": "<i class = 'fa-solid fa-cannabis'></i>",
         "ICON_STR": "cannabis",
         "COLOR": "lightgreen",
         "lat": 33.98733835,
-        "long": -117.372801078351
+        "long": -117.3728011
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.498619542601,
+          -117.4986195,
           34.011433596836
         ]
       },
@@ -734,18 +770,19 @@
         "LONG_NAME": "Cannabis Store",
         "LIFESTYLE_CAT": "Cannabis",
         "ADDR": "9806 Mission Blvd, Riverside, CA 92509",
-        "ICON": "fa-cannabis",
+        "ICON": "cannabis",
+        "ICON_LINE": "<i class = 'fa-solid fa-cannabis'></i>",
         "ICON_STR": "cannabis",
         "COLOR": "lightgreen",
         "lat": 34.011433596836,
-        "long": -117.498619542601
+        "long": -117.4986195
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.288174224391,
+          -117.2881742,
           33.940218061783
         ]
       },
@@ -754,11 +791,12 @@
         "LONG_NAME": "Walmart",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "6250 Valley Springs Pkwy, Riverside, CA 92507",
-        "ICON": "fa-cart-shopping",
+        "ICON": "cart-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-cart-shopping'></i>",
         "ICON_STR": "cart",
         "COLOR": "blue",
         "lat": 33.940218061783,
-        "long": -117.288174224391
+        "long": -117.2881742
       }
     },
     {
@@ -774,7 +812,8 @@
         "LONG_NAME": "Walmart",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "1120 S Mt Vernon Ave, Colton, CA 92324",
-        "ICON": "fa-cart-shopping",
+        "ICON": "cart-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-cart-shopping'></i>",
         "ICON_STR": "cart",
         "COLOR": "blue",
         "lat": 34.0570808,
@@ -794,7 +833,8 @@
         "LONG_NAME": "Walmart",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "1366 S Riverside Ave, Rialto, CA 92376",
-        "ICON": "fa-cart-shopping",
+        "ICON": "cart-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-cart-shopping'></i>",
         "ICON_STR": "cart",
         "COLOR": "blue",
         "lat": 34.0763996,
@@ -814,7 +854,8 @@
         "LONG_NAME": "Walmart",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "5200 Van Buren Boulevard, Riverside, CA 92503",
-        "ICON": "fa-cart-shopping",
+        "ICON": "cart-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-cart-shopping'></i>",
         "ICON_STR": "cart",
         "COLOR": "blue",
         "lat": 33.9367789,
@@ -834,7 +875,8 @@
         "LONG_NAME": "Walmart",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "12721 Moreno Beach Dr, Moreno Valley, CA 92555",
-        "ICON": "fa-cart-shopping",
+        "ICON": "cart-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-cart-shopping'></i>",
         "ICON_STR": "cart",
         "COLOR": "blue",
         "lat": 33.9357718,
@@ -854,7 +896,8 @@
         "LONG_NAME": "Walmart",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "2050 W Redlands Blvd, Redlands, CA 92373",
-        "ICON": "fa-cart-shopping",
+        "ICON": "cart-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-cart-shopping'></i>",
         "ICON_STR": "cart",
         "COLOR": "blue",
         "lat": 34.0650396,
@@ -865,7 +908,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.42815235,
+          -117.4281524,
           34.1057132
         ]
       },
@@ -874,11 +917,12 @@
         "LONG_NAME": "Walmart",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "17251 Foothill Blvd, Fontana, CA 92335",
-        "ICON": "fa-cart-shopping",
+        "ICON": "cart-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-cart-shopping'></i>",
         "ICON_STR": "cart",
         "COLOR": "blue",
         "lat": 34.1057132,
-        "long": -117.42815235
+        "long": -117.4281524
       }
     },
     {
@@ -894,7 +938,8 @@
         "LONG_NAME": "Walmart",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "479 N McKinley St, Corona, CA 92879",
-        "ICON": "fa-cart-shopping",
+        "ICON": "cart-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-cart-shopping'></i>",
         "ICON_STR": "cart",
         "COLOR": "blue",
         "lat": 33.8910578,
@@ -905,7 +950,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.194889269502,
+          -117.1948893,
           34.13762725
         ]
       },
@@ -914,18 +959,19 @@
         "LONG_NAME": "Walmart",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "4210 Highland Ave, Highland, CA 92346",
-        "ICON": "fa-cart-shopping",
+        "ICON": "cart-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-cart-shopping'></i>",
         "ICON_STR": "cart",
         "COLOR": "blue",
         "lat": 34.13762725,
-        "long": -117.194889269502
+        "long": -117.1948893
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.229541472179,
+          -117.2295415,
           33.80617145
         ]
       },
@@ -934,18 +980,19 @@
         "LONG_NAME": "Walmart",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "1800 N Perris Blvd, Perris, CA 92571",
-        "ICON": "fa-cart-shopping",
+        "ICON": "cart-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-cart-shopping'></i>",
         "ICON_STR": "cart",
         "COLOR": "blue",
         "lat": 33.80617145,
-        "long": -117.229541472179
+        "long": -117.2295415
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.332629263463,
+          -117.3326293,
           34.0029525
         ]
       },
@@ -954,18 +1001,19 @@
         "LONG_NAME": "Walmart",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "1001 Columbia Ave, Riverside, CA 92507",
-        "ICON": "fa-cart-shopping",
+        "ICON": "cart-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-cart-shopping'></i>",
         "ICON_STR": "cart",
         "COLOR": "blue",
         "lat": 34.0029525,
-        "long": -117.332629263463
+        "long": -117.3326293
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.476737571889,
+          -117.4767376,
           33.9743423
         ]
       },
@@ -974,18 +1022,19 @@
         "LONG_NAME": "Walmart",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "8844 Limonite Ave, Jurupa Valley, CA 92509",
-        "ICON": "fa-cart-shopping",
+        "ICON": "cart-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-cart-shopping'></i>",
         "ICON_STR": "cart",
         "COLOR": "blue",
         "lat": 33.9743423,
-        "long": -117.476737571889
+        "long": -117.4767376
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.336170059897,
+          -117.3361701,
           34.1653946
         ]
       },
@@ -994,18 +1043,19 @@
         "LONG_NAME": "Walmart",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "4001 Hallmark Pkwy, San Bernardino, CA 92407",
-        "ICON": "fa-cart-shopping",
+        "ICON": "cart-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-cart-shopping'></i>",
         "ICON_STR": "cart",
         "COLOR": "blue",
         "lat": 34.1653946,
-        "long": -117.336170059897
+        "long": -117.3361701
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.541305754864,
+          -117.5413058,
           33.8459858
         ]
       },
@@ -1014,18 +1064,19 @@
         "LONG_NAME": "Walmart",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "1290 E Ontario Ave, Corona, CA 92881",
-        "ICON": "fa-cart-shopping",
+        "ICON": "cart-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-cart-shopping'></i>",
         "ICON_STR": "cart",
         "COLOR": "blue",
         "lat": 33.8459858,
-        "long": -117.541305754864
+        "long": -117.5413058
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.531563739892,
+          -117.5315637,
           34.10341815
         ]
       },
@@ -1034,11 +1085,12 @@
         "LONG_NAME": "Walmart",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "12549 Foothill Blvd, Rancho Cucamonga, CA 91739",
-        "ICON": "fa-cart-shopping",
+        "ICON": "cart-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-cart-shopping'></i>",
         "ICON_STR": "cart",
         "COLOR": "blue",
         "lat": 34.10341815,
-        "long": -117.531563739892
+        "long": -117.5315637
       }
     },
     {
@@ -1054,7 +1106,8 @@
         "LONG_NAME": "Ralphs",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "5225 Canyon Crest Dr, Riverside, CA 92507",
-        "ICON": "fa-basket-shopping",
+        "ICON": "basket-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-basket-shopping'></i>",
         "ICON_STR": "basket",
         "COLOR": "darkred",
         "lat": 33.9571723,
@@ -1074,7 +1127,8 @@
         "LONG_NAME": "Ralphs",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "6155 Magnolia Ave, Riverside, CA 92506",
-        "ICON": "fa-basket-shopping",
+        "ICON": "basket-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-basket-shopping'></i>",
         "ICON_STR": "basket",
         "COLOR": "darkred",
         "lat": 33.9592269,
@@ -1094,7 +1148,8 @@
         "LONG_NAME": "Ralphs",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "3350 La Sierra Ave, Riverside, CA 92503",
-        "ICON": "fa-basket-shopping",
+        "ICON": "basket-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-basket-shopping'></i>",
         "ICON_STR": "basket",
         "COLOR": "darkred",
         "lat": 33.8954112,
@@ -1114,7 +1169,8 @@
         "LONG_NAME": "Ralphs",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "16225 Sierra Lakes Pkwy, Fontana, CA 92336",
-        "ICON": "fa-basket-shopping",
+        "ICON": "basket-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-basket-shopping'></i>",
         "ICON_STR": "basket",
         "COLOR": "darkred",
         "lat": 34.1376277,
@@ -1125,7 +1181,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.55894905,
+          -117.5589491,
           33.97489985
         ]
       },
@@ -1134,18 +1190,19 @@
         "LONG_NAME": "Ralphs",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "12660 Limonite Ave, Eastvale, CA 92880",
-        "ICON": "fa-basket-shopping",
+        "ICON": "basket-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-basket-shopping'></i>",
         "ICON_STR": "basket",
         "COLOR": "darkred",
         "lat": 33.97489985,
-        "long": -117.55894905
+        "long": -117.5589491
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.334343991168,
+          -117.334344,
           34.1696858
         ]
       },
@@ -1154,18 +1211,19 @@
         "LONG_NAME": "Ralphs",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "4444 University Pkwy, San Bernardino, CA 92407",
-        "ICON": "fa-basket-shopping",
+        "ICON": "basket-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-basket-shopping'></i>",
         "ICON_STR": "basket",
         "COLOR": "darkred",
         "lat": 34.1696858,
-        "long": -117.334343991168
+        "long": -117.334344
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.539365022863,
+          -117.539365,
           34.13490645
         ]
       },
@@ -1174,11 +1232,12 @@
         "LONG_NAME": "Ralphs",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "12201 Highland Ave, Rancho Cucamonga, CA 91739",
-        "ICON": "fa-basket-shopping",
+        "ICON": "basket-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-basket-shopping'></i>",
         "ICON_STR": "basket",
         "COLOR": "darkred",
         "lat": 34.13490645,
-        "long": -117.539365022863
+        "long": -117.539365
       }
     },
     {
@@ -1194,7 +1253,8 @@
         "LONG_NAME": "Ralphs",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "7369 Milliken Ave, Rancho Cucamonga, CA 91730",
-        "ICON": "fa-basket-shopping",
+        "ICON": "basket-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-basket-shopping'></i>",
         "ICON_STR": "basket",
         "COLOR": "darkred",
         "lat": 34.1199443,
@@ -1205,7 +1265,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.575439024986,
+          -117.575439,
           34.1236472
         ]
       },
@@ -1214,18 +1274,19 @@
         "LONG_NAME": "Ralphs",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "7243 Haven Ave, Rancho Cucamonga, CA 91701",
-        "ICON": "fa-basket-shopping",
+        "ICON": "basket-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-basket-shopping'></i>",
         "ICON_STR": "basket",
         "COLOR": "darkred",
         "lat": 34.1236472,
-        "long": -117.575439024986
+        "long": -117.575439
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.621834431215,
+          -117.6218344,
           33.87157635
         ]
       },
@@ -1234,18 +1295,19 @@
         "LONG_NAME": "Ralphs",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "2661 Green River Rd, Corona, CA 92882",
-        "ICON": "fa-basket-shopping",
+        "ICON": "basket-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-basket-shopping'></i>",
         "ICON_STR": "basket",
         "COLOR": "darkred",
         "lat": 33.87157635,
-        "long": -117.621834431215
+        "long": -117.6218344
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.18965317769,
+          -117.1896532,
           33.9380447
         ]
       },
@@ -1254,18 +1316,19 @@
         "LONG_NAME": "Grocery Store",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "27100 Eucalyptus Ave, Moreno Valley, CA 92555",
-        "ICON": "fa-basket-shopping",
+        "ICON": "basket-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-basket-shopping'></i>",
         "ICON_STR": "basket",
         "COLOR": "lightblue",
         "lat": 33.9380447,
-        "long": -117.18965317769
+        "long": -117.1896532
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.28136352734,
+          -117.2813635,
           33.940469572063
         ]
       },
@@ -1274,11 +1337,12 @@
         "LONG_NAME": "Grocery Store",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "2744 Canyon Springs Pkwy, Riverside, CA 92507",
-        "ICON": "fa-basket-shopping",
+        "ICON": "basket-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-basket-shopping'></i>",
         "ICON_STR": "basket",
         "COLOR": "lightblue",
         "lat": 33.940469572063,
-        "long": -117.28136352734
+        "long": -117.2813635
       }
     },
     {
@@ -1294,7 +1358,8 @@
         "LONG_NAME": "Grocery Store",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "2975 Van Buren Boulevard, Riverside, CA 92503",
-        "ICON": "fa-basket-shopping",
+        "ICON": "basket-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-basket-shopping'></i>",
         "ICON_STR": "basket",
         "COLOR": "lightblue",
         "lat": 33.9098993,
@@ -1305,7 +1370,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.365464843397,
+          -117.3654648,
           33.983904341312
         ]
       },
@@ -1314,18 +1379,19 @@
         "LONG_NAME": "Grocery Store",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "3310 Vine St, Riverside, CA 92507",
-        "ICON": "fa-basket-shopping",
+        "ICON": "basket-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-basket-shopping'></i>",
         "ICON_STR": "basket",
         "COLOR": "lightblue",
         "lat": 33.983904341312,
-        "long": -117.365464843397
+        "long": -117.3654648
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.405910424427,
+          -117.4059104,
           33.936965402566
         ]
       },
@@ -1334,11 +1400,12 @@
         "LONG_NAME": "Grocery Store",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "3550 Madison St, Riverside, CA 92504",
-        "ICON": "fa-basket-shopping",
+        "ICON": "basket-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-basket-shopping'></i>",
         "ICON_STR": "basket",
         "COLOR": "lightblue",
         "lat": 33.936965402566,
-        "long": -117.405910424427
+        "long": -117.4059104
       }
     },
     {
@@ -1354,7 +1421,8 @@
         "LONG_NAME": "Costco",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "12700 Day St, Moreno Valley, CA 92553",
-        "ICON": "fa-cart-plus",
+        "ICON": "cart-plus",
+        "ICON_LINE": "<i class = 'fa-solid fa-cart-plus'></i>",
         "ICON_STR": "cartplus",
         "COLOR": "red",
         "lat": 33.9360407,
@@ -1374,7 +1442,8 @@
         "LONG_NAME": "Costco",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "1099 E Hospitality Ln, San Bernardino, CA 92408",
-        "ICON": "fa-cart-plus",
+        "ICON": "cart-plus",
+        "ICON_LINE": "<i class = 'fa-solid fa-cart-plus'></i>",
         "ICON_STR": "cartplus",
         "COLOR": "red",
         "lat": 34.069058,
@@ -1385,7 +1454,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.44337600117,
+          -117.443376,
           34.1373663
         ]
       },
@@ -1394,18 +1463,19 @@
         "LONG_NAME": "Costco",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "16505 Sierra Lakes Pkwy, Fontana, CA 92336",
-        "ICON": "fa-cart-plus",
+        "ICON": "cart-plus",
+        "ICON_LINE": "<i class = 'fa-solid fa-cart-plus'></i>",
         "ICON_STR": "cartplus",
         "COLOR": "red",
         "lat": 34.1373663,
-        "long": -117.44337600117
+        "long": -117.443376
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.520597378287,
+          -117.5205974,
           33.88956816106
         ]
       },
@@ -1414,18 +1484,19 @@
         "LONG_NAME": "Costco",
         "LIFESTYLE_CAT": "Grocery",
         "ADDR": "480 N McKinley St, Corona, CA 92879",
-        "ICON": "fa-cart-plus",
+        "ICON": "cart-plus",
+        "ICON_LINE": "<i class = 'fa-solid fa-cart-plus'></i>",
         "ICON_STR": "cartplus",
         "COLOR": "red",
         "lat": 33.88956816106,
-        "long": -117.520597378287
+        "long": -117.5205974
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.514601640366,
+          -84.51460164,
           33.9490511
         ]
       },
@@ -1434,11 +1505,12 @@
         "LONG_NAME": "Studio Movie Grill",
         "LIFESTYLE_CAT": "Historical",
         "ADDR": "40 Powers Ferry Rd, Marietta, GA 30067",
-        "ICON": "fa-film",
+        "ICON": "film",
+        "ICON_LINE": "<i class = 'fa-solid fa-film'></i>",
         "ICON_STR": "film",
         "COLOR": "black",
         "lat": 33.9490511,
-        "long": -84.514601640366
+        "long": -84.51460164
       }
     },
     {
@@ -1454,7 +1526,8 @@
         "LONG_NAME": "Kennesaw State University",
         "LIFESTYLE_CAT": "Historical",
         "ADDR": "1100 South Marietta Pkwy SE, Marietta, GA 30060",
-        "ICON": "fa-graduation-cap",
+        "ICON": "graduation-cap",
+        "ICON_LINE": "<i class = 'fa-solid fa-graduation-cap'></i>",
         "ICON_STR": "grad",
         "COLOR": "black",
         "lat": 33.9404888,
@@ -1465,7 +1538,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.264522952134,
+          -118.264523,
           34.04732935
         ]
       },
@@ -1474,11 +1547,12 @@
         "LONG_NAME": "Hotel Indigo - DTLA",
         "LIFESTYLE_CAT": "Historical",
         "ADDR": "899 Francisco St, Los Angeles, CA 90017",
-        "ICON": "fa-bed",
+        "ICON": "bed",
+        "ICON_LINE": "<i class = 'fa-solid fa-bed'></i>",
         "ICON_STR": "bed",
         "COLOR": "darkpurple",
         "lat": 34.04732935,
-        "long": -118.264522952134
+        "long": -118.264523
       }
     },
     {
@@ -1494,7 +1568,8 @@
         "LONG_NAME": "Holiday Inn Express - Union Square",
         "LIFESTYLE_CAT": "Historical",
         "ADDR": "235 O'Farrell St, San Francisco, CA 94102",
-        "ICON": "fa-bed",
+        "ICON": "bed",
+        "ICON_LINE": "<i class = 'fa-solid fa-bed'></i>",
         "ICON_STR": "bed",
         "COLOR": "darkpurple",
         "lat": 37.7861752,
@@ -1514,7 +1589,8 @@
         "LONG_NAME": "The Bristol Hotel - San Diego",
         "LIFESTYLE_CAT": "Historical",
         "ADDR": "1055 First Ave., San Diego, CA 92101",
-        "ICON": "fa-bed",
+        "ICON": "bed",
+        "ICON_LINE": "<i class = 'fa-solid fa-bed'></i>",
         "ICON_STR": "bed",
         "COLOR": "darkpurple",
         "lat": 32.7113383,
@@ -1525,7 +1601,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.176110752062,
+          -117.1761108,
           32.758922537909
         ]
       },
@@ -1534,11 +1610,12 @@
         "LONG_NAME": "Candlewood Suites - San Diego",
         "LIFESTYLE_CAT": "Historical",
         "ADDR": "1335 Hotel Cir S, San Diego, CA 92108",
-        "ICON": "fa-bed",
+        "ICON": "bed",
+        "ICON_LINE": "<i class = 'fa-solid fa-bed'></i>",
         "ICON_STR": "bed",
         "COLOR": "darkpurple",
         "lat": 32.758922537909,
-        "long": -117.176110752062
+        "long": -117.1761108
       }
     },
     {
@@ -1554,7 +1631,8 @@
         "LONG_NAME": "Mariott Riverside at the Convention Center",
         "LIFESTYLE_CAT": "Historical",
         "ADDR": "3400 Market St, Riverside, CA 92501",
-        "ICON": "fa-bed",
+        "ICON": "bed",
+        "ICON_LINE": "<i class = 'fa-solid fa-bed'></i>",
         "ICON_STR": "bed",
         "COLOR": "darkpurple",
         "lat": 33.986292,
@@ -1565,7 +1643,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.601255704595,
+          -84.6012557,
           34.041633306542
         ]
       },
@@ -1574,18 +1652,19 @@
         "LONG_NAME": "A Home for Darker Days",
         "LIFESTYLE_CAT": "Historical",
         "ADDR": "1450 Kennesaw Trace Ct, Kennesaw, GA 30144",
-        "ICON": "fa-house-fire",
+        "ICON": "house-fire",
+        "ICON_LINE": "<i class = 'fa-solid fa-house-fire'></i>",
         "ICON_STR": "housefire",
         "COLOR": "gray",
         "lat": 34.041633306542,
-        "long": -84.601255704595
+        "long": -84.6012557
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.318087996005,
+          -84.318088,
           33.77874945
         ]
       },
@@ -1594,18 +1673,19 @@
         "LONG_NAME": "Fernbank Museum",
         "LIFESTYLE_CAT": "Historical",
         "ADDR": "156 Heaton Park Dr, Atlanta, GA 30307",
-        "ICON": "fa-building-columns",
+        "ICON": "building-columns",
+        "ICON_LINE": "<i class = 'fa-solid fa-building-columns'></i>",
         "ICON_STR": "building",
         "COLOR": "green",
         "lat": 33.77874945,
-        "long": -84.318087996005
+        "long": -84.318088
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.395117266859,
+          -84.39511727,
           33.76326745
         ]
       },
@@ -1614,11 +1694,12 @@
         "LONG_NAME": "Georgia Aquarium",
         "LIFESTYLE_CAT": "Historical",
         "ADDR": "225 Baker St NW, Atlanta, GA 30313",
-        "ICON": "fa-fish-fins",
+        "ICON": "fish-fins",
+        "ICON_LINE": "<i class = 'fa-solid fa-fish-fins'></i>",
         "ICON_STR": "fish",
         "COLOR": "lightblue",
         "lat": 33.76326745,
-        "long": -84.395117266859
+        "long": -84.39511727
       }
     },
     {
@@ -1634,7 +1715,8 @@
         "LONG_NAME": "CalTech",
         "LIFESTYLE_CAT": "Historical",
         "ADDR": "1200 E California Blvd, Pasadena, CA 91125",
-        "ICON": "fa-graduation-cap",
+        "ICON": "graduation-cap",
+        "ICON_LINE": "<i class = 'fa-solid fa-graduation-cap'></i>",
         "ICON_STR": "grad",
         "COLOR": "orange",
         "lat": 34.135903,
@@ -1645,7 +1727,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.334929493306,
+          -84.33492949,
           33.9207353
         ]
       },
@@ -1654,18 +1736,19 @@
         "LONG_NAME": "IHG - InterContinental Hotels Group",
         "LIFESTYLE_CAT": "Historical",
         "ADDR": "3 Ravinia Drive, Atlanta, GA 30346",
-        "ICON": "fa-hotel",
+        "ICON": "hotel",
+        "ICON_LINE": "<i class = 'fa-solid fa-hotel'></i>",
         "ICON_STR": "hotel",
         "COLOR": "orange",
         "lat": 33.9207353,
-        "long": -84.334929493306
+        "long": -84.33492949
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.584262308081,
+          -84.58426231,
           34.049576712121
         ]
       },
@@ -1674,11 +1757,12 @@
         "LONG_NAME": "Hawthorne at Kennesaw",
         "LIFESTYLE_CAT": "Historical",
         "ADDR": "4045 George Busbee Pkwy NW, Kennesaw, GA 30144",
-        "ICON": "fa-house-circle-xmark",
+        "ICON": "house-circle-xmark",
+        "ICON_LINE": "<i class = 'fa-solid fa-house-circle-xmark'></i>",
         "ICON_STR": "housex",
         "COLOR": "pink",
         "lat": 34.049576712121,
-        "long": -84.584262308081
+        "long": -84.58426231
       }
     },
     {
@@ -1694,7 +1778,8 @@
         "LONG_NAME": "MAA Shiloh",
         "LIFESTYLE_CAT": "Historical",
         "ADDR": "1750 Shiloh Rd NW, Kennesaw, GA 30144",
-        "ICON": "fa-house-circle-xmark",
+        "ICON": "house-circle-xmark",
+        "ICON_LINE": "<i class = 'fa-solid fa-house-circle-xmark'></i>",
         "ICON_STR": "housex",
         "COLOR": "pink",
         "lat": 34.050982,
@@ -1714,7 +1799,8 @@
         "LONG_NAME": "Silver Creek Apartments",
         "LIFESTYLE_CAT": "Historical",
         "ADDR": "1776 Summit Forest Dr, Marietta, GA 30068",
-        "ICON": "fa-house-circle-xmark",
+        "ICON": "house-circle-xmark",
+        "ICON_LINE": "<i class = 'fa-solid fa-house-circle-xmark'></i>",
         "ICON_STR": "housex",
         "COLOR": "pink",
         "lat": 33.955598,
@@ -1725,7 +1811,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.384599516768,
+          -84.38459952,
           33.78483865
         ]
       },
@@ -1734,11 +1820,12 @@
         "LONG_NAME": "My Sisters Room",
         "LIFESTYLE_CAT": "Historical",
         "ADDR": "1104 Crescent Ave NE, Atlanta, GA 30309",
-        "ICON": "fa-martini-glass-citrus",
+        "ICON": "martini-glass-citrus",
+        "ICON_LINE": "<i class = 'fa-solid fa-martini-glass-citrus'></i>",
         "ICON_STR": "martini",
         "COLOR": "purple",
         "lat": 33.78483865,
-        "long": -84.384599516768
+        "long": -84.38459952
       }
     },
     {
@@ -1754,7 +1841,8 @@
         "LONG_NAME": "Perimeter Mall",
         "LIFESTYLE_CAT": "Historical",
         "ADDR": "4400 Ashford Dunwoody Rd, Atlanta, GA 30346",
-        "ICON": "fa-bag-shopping",
+        "ICON": "bag-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-bag-shopping'></i>",
         "ICON_STR": "bag",
         "COLOR": "purple",
         "lat": 33.9235375,
@@ -1765,7 +1853,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.551071823229,
+          -84.55107182,
           33.7670764
         ]
       },
@@ -1774,11 +1862,12 @@
         "LONG_NAME": "Six Flags Over Georgia",
         "LIFESTYLE_CAT": "Historical",
         "ADDR": "275 Riverside Pkwy, Austell, GA 30168",
-        "ICON": "fa-cable-car",
+        "ICON": "cable-car",
+        "ICON_LINE": "<i class = 'fa-solid fa-cable-car'></i>",
         "ICON_STR": "cablecar",
         "COLOR": "purple",
         "lat": 33.7670764,
-        "long": -84.551071823229
+        "long": -84.55107182
       }
     },
     {
@@ -1794,7 +1883,8 @@
         "LONG_NAME": "Town Center Mall",
         "LIFESTYLE_CAT": "Historical",
         "ADDR": "400 Ernest W Barrett Pkwy NW, Kennesaw, GA 30144",
-        "ICON": "fa-bag-shopping",
+        "ICON": "bag-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-bag-shopping'></i>",
         "ICON_STR": "bag",
         "COLOR": "purple",
         "lat": 33.9930013,
@@ -1805,7 +1895,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.150654157615,
+          -117.1506542,
           32.73598735
         ]
       },
@@ -1814,18 +1904,19 @@
         "LONG_NAME": "SD Zoo",
         "LIFESTYLE_CAT": "Social",
         "ADDR": "2920 Zoo Drive, San Diego, CA 92101",
-        "ICON": "fa-hippo",
+        "ICON": "hippo",
+        "ICON_LINE": "<i class = 'fa-solid fa-hippo'></i>",
         "ICON_STR": "hippo",
         "COLOR": "green",
         "lat": 32.73598735,
-        "long": -117.150654157615
+        "long": -117.1506542
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.284402513761,
+          -118.2844025,
           34.147359675841
         ]
       },
@@ -1834,11 +1925,12 @@
         "LONG_NAME": "Los Angeles Zoo and Botanical Gardens",
         "LIFESTYLE_CAT": "Social",
         "ADDR": "5333 Zoo Dr, Los Angeles, CA 90027",
-        "ICON": "fa-hippo",
+        "ICON": "hippo",
+        "ICON_LINE": "<i class = 'fa-solid fa-hippo'></i>",
         "ICON_STR": "hippo",
         "COLOR": "green",
         "lat": 34.147359675841,
-        "long": -118.284402513761
+        "long": -118.2844025
       }
     },
     {
@@ -1854,7 +1946,8 @@
         "LONG_NAME": "San Francisco Zoo",
         "LIFESTYLE_CAT": "Social",
         "ADDR": "Sloat Blvd &, Upper Great Hwy, San Francisco, CA 94132",
-        "ICON": "fa-hippo",
+        "ICON": "hippo",
+        "ICON_LINE": "<i class = 'fa-solid fa-hippo'></i>",
         "ICON_STR": "hippo",
         "COLOR": "green",
         "lat": 37.7354329,
@@ -1865,7 +1958,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.196674283878,
+          -118.1966743,
           33.763203876405
         ]
       },
@@ -1874,18 +1967,19 @@
         "LONG_NAME": "Aquarium of the Pacific",
         "LIFESTYLE_CAT": "Social",
         "ADDR": "100 Aquarium Way, Long Beach, CA 90802",
-        "ICON": "fa-fish-fins",
+        "ICON": "fish-fins",
+        "ICON_LINE": "<i class = 'fa-solid fa-fish-fins'></i>",
         "ICON_STR": "fish",
         "COLOR": "lightblue",
         "lat": 33.763203876405,
-        "long": -118.196674283878
+        "long": -118.1966743
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.370615974961,
+          -117.370616,
           33.981586624946
         ]
       },
@@ -1894,11 +1988,12 @@
         "LONG_NAME": "Riverside Art Museum",
         "LIFESTYLE_CAT": "Social",
         "ADDR": "3425 Mission Inn Avenue, Riverside, CA 92501",
-        "ICON": "fa-palette",
+        "ICON": "palette",
+        "ICON_LINE": "<i class = 'fa-solid fa-palette'></i>",
         "ICON_STR": "palette",
         "COLOR": "pink",
         "lat": 33.981586624946,
-        "long": -117.370615974961
+        "long": -117.370616
       }
     },
     {
@@ -1914,7 +2009,8 @@
         "LONG_NAME": "GLBT Historical Society Museum",
         "LIFESTYLE_CAT": "Social",
         "ADDR": "4127 18th St, San Francisco, CA 94114",
-        "ICON": "fa-building-columns",
+        "ICON": "building-columns",
+        "ICON_LINE": "<i class = 'fa-solid fa-building-columns'></i>",
         "ICON_STR": "building",
         "COLOR": "pink",
         "lat": 37.7607664,
@@ -1934,7 +2030,8 @@
         "LONG_NAME": "Disneyland",
         "LIFESTYLE_CAT": "Social",
         "ADDR": "1150 Magic Way, Anaheim, CA 92802",
-        "ICON": "fa-wand-magic-sparkles",
+        "ICON": "wand-magic-sparkles",
+        "ICON_LINE": "<i class = 'fa-solid fa-wand-magic-sparkles'></i>",
         "ICON_STR": "wand",
         "COLOR": "purple",
         "lat": 33.8082809,
@@ -1954,7 +2051,8 @@
         "LONG_NAME": "Abbey",
         "LIFESTYLE_CAT": "Social",
         "ADDR": "692 N Robertson Blvd, West Hollywood, CA 90069",
-        "ICON": "fa-martini-glass-citrus",
+        "ICON": "martini-glass-citrus",
+        "ICON_LINE": "<i class = 'fa-solid fa-martini-glass-citrus'></i>",
         "ICON_STR": "martini",
         "COLOR": "purple",
         "lat": 34.0833871,
@@ -1965,7 +2063,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.42210435,
+          -122.4221044,
           37.76421495
         ]
       },
@@ -1974,18 +2072,19 @@
         "LONG_NAME": "Blondie's Bar",
         "LIFESTYLE_CAT": "Social",
         "ADDR": "540 Valencia St, San Francisco, CA 94110",
-        "ICON": "fa-martini-glass-citrus",
+        "ICON": "martini-glass-citrus",
+        "ICON_LINE": "<i class = 'fa-solid fa-martini-glass-citrus'></i>",
         "ICON_STR": "martini",
         "COLOR": "purple",
         "lat": 37.76421495,
-        "long": -122.42210435
+        "long": -122.4221044
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.597045388146,
+          -118.5970454,
           34.4250568
         ]
       },
@@ -1994,18 +2093,19 @@
         "LONG_NAME": "Six Flags Magic Mountain",
         "LIFESTYLE_CAT": "Social",
         "ADDR": "26101 Magic Mountain Pkwy, Valencia, CA 91355",
-        "ICON": "fa-cable-car",
+        "ICON": "cable-car",
+        "ICON_LINE": "<i class = 'fa-solid fa-cable-car'></i>",
         "ICON_STR": "cablecar",
         "COLOR": "purple",
         "lat": 34.4250568,
-        "long": -118.597045388146
+        "long": -118.5970454
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.276558632653,
+          -118.2765586,
           34.08883255102
         ]
       },
@@ -2014,11 +2114,12 @@
         "LONG_NAME": "The Ruby Fruit",
         "LIFESTYLE_CAT": "Social",
         "ADDR": "3510 Sunset Blvd, Los Angeles, CA 90026",
-        "ICON": "fa-martini-glass-citrus",
+        "ICON": "martini-glass-citrus",
+        "ICON_LINE": "<i class = 'fa-solid fa-martini-glass-citrus'></i>",
         "ICON_STR": "martini",
         "COLOR": "purple",
         "lat": 34.08883255102,
-        "long": -118.276558632653
+        "long": -118.2765586
       }
     },
     {
@@ -2034,7 +2135,8 @@
         "LONG_NAME": "Knott's Berry Farm",
         "LIFESTYLE_CAT": "Social",
         "ADDR": "8039 Beach Blvd, Buena Park, CA 90620",
-        "ICON": "fa-cable-car",
+        "ICON": "cable-car",
+        "ICON_LINE": "<i class = 'fa-solid fa-cable-car'></i>",
         "ICON_STR": "cablecar",
         "COLOR": "purple",
         "lat": 33.8446407,
@@ -2054,7 +2156,8 @@
         "LONG_NAME": "Six Flags Discovery Kingdom",
         "LIFESTYLE_CAT": "Social",
         "ADDR": "1001 Fairgrounds Dr, Vallejo, CA 94589",
-        "ICON": "fa-cable-car",
+        "ICON": "cable-car",
+        "ICON_LINE": "<i class = 'fa-solid fa-cable-car'></i>",
         "ICON_STR": "cablecar",
         "COLOR": "purple",
         "lat": 38.1395033,
@@ -2065,7 +2168,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.460937610515,
+          -117.4609376,
           33.911523096998
         ]
       },
@@ -2074,18 +2177,19 @@
         "LONG_NAME": "AMC",
         "LIFESTYLE_CAT": "Social",
         "ADDR": "3775 Tyler St, Riverside, CA 92503",
-        "ICON": "fa-film",
+        "ICON": "film",
+        "ICON_LINE": "<i class = 'fa-solid fa-film'></i>",
         "ICON_STR": "film",
         "COLOR": "red",
         "lat": 33.911523096998,
-        "long": -117.460937610515
+        "long": -117.4609376
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.35994593476,
+          -118.3599459,
           34.06447235
         ]
       },
@@ -2094,18 +2198,19 @@
         "LONG_NAME": "Los Angeles County Museum of Art",
         "LIFESTYLE_CAT": "Social",
         "ADDR": "5905 Wilshire Blvd, Los Angeles, CA 90036",
-        "ICON": "fa-palette",
+        "ICON": "palette",
+        "ICON_LINE": "<i class = 'fa-solid fa-palette'></i>",
         "ICON_STR": "palette",
         "COLOR": "pink",
         "lat": 34.06447235,
-        "long": -118.35994593476
+        "long": -118.3599459
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.475711981231,
+          -118.475712,
           34.07695125
         ]
       },
@@ -2114,18 +2219,19 @@
         "LONG_NAME": "The Getty Center",
         "LIFESTYLE_CAT": "Social",
         "ADDR": "1200 Getty Center Dr, Los Angeles, CA 90049",
-        "ICON": "fa-building-columns",
+        "ICON": "building-columns",
+        "ICON_LINE": "<i class = 'fa-solid fa-building-columns'></i>",
         "ICON_STR": "building",
         "COLOR": "green",
         "lat": 34.07695125,
-        "long": -118.475711981231
+        "long": -118.475712
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.250594151758,
+          -118.2505942,
           34.0544584
         ]
       },
@@ -2134,18 +2240,19 @@
         "LONG_NAME": "The Broad",
         "LIFESTYLE_CAT": "Social",
         "ADDR": "221 S Grand Ave, Los Angeles, CA 90012",
-        "ICON": "fa-palette",
+        "ICON": "palette",
+        "ICON_LINE": "<i class = 'fa-solid fa-palette'></i>",
         "ICON_STR": "palette",
         "COLOR": "pink",
         "lat": 34.0544584,
-        "long": -118.250594151758
+        "long": -118.2505942
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.448780836174,
+          -117.4487808,
           34.014609576651
         ]
       },
@@ -2154,18 +2261,19 @@
         "LONG_NAME": "Jurupa Mountains Discovery Center",
         "LIFESTYLE_CAT": "Social",
         "ADDR": "7621 Granite Hill Dr, Riverside, CA 92509",
-        "ICON": "fa-building-columns",
+        "ICON": "building-columns",
+        "ICON_LINE": "<i class = 'fa-solid fa-building-columns'></i>",
         "ICON_STR": "building",
         "COLOR": "green",
         "lat": 34.014609576651,
-        "long": -117.448780836174
+        "long": -117.4487808
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.391541016035,
+          -117.391541,
           33.9554404
         ]
       },
@@ -2174,18 +2282,19 @@
         "LONG_NAME": "Marshalls",
         "LIFESTYLE_CAT": "Store",
         "ADDR": "3635 Riverside Plaza Dr, Riverside, CA 92506",
-        "ICON": "fa-tags",
+        "ICON": "tags",
+        "ICON_LINE": "<i class = 'fa-solid fa-tags'></i>",
         "ICON_STR": "tags",
         "COLOR": "darkblue",
         "lat": 33.9554404,
-        "long": -117.391541016035
+        "long": -117.391541
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.282858847872,
+          -117.2828588,
           33.941245907549
         ]
       },
@@ -2194,19 +2303,20 @@
         "LONG_NAME": "Marshalls",
         "LIFESTYLE_CAT": "Store",
         "ADDR": "2676 Canyon Springs Pkwy, Riverside, CA 92507",
-        "ICON": "fa-tags",
+        "ICON": "tags",
+        "ICON_LINE": "<i class = 'fa-solid fa-tags'></i>",
         "ICON_STR": "tags",
         "COLOR": "darkblue",
         "lat": 33.941245907549,
-        "long": -117.282858847872
+        "long": -117.2828588
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.299624886843,
-          34.102644835142
+          -117.2996249,
+          34.10264484
         ]
       },
       "type": "Feature",
@@ -2214,11 +2324,12 @@
         "LONG_NAME": "Marshalls",
         "LIFESTYLE_CAT": "Store",
         "ADDR": "741 W 2nd St, San Bernardino, CA 92410",
-        "ICON": "fa-tags",
+        "ICON": "tags",
+        "ICON_LINE": "<i class = 'fa-solid fa-tags'></i>",
         "ICON_STR": "tags",
         "COLOR": "darkblue",
-        "lat": 34.102644835142,
-        "long": -117.299624886843
+        "lat": 34.10264484,
+        "long": -117.2996249
       }
     },
     {
@@ -2234,7 +2345,8 @@
         "LONG_NAME": "Marshalls",
         "LIFESTYLE_CAT": "Store",
         "ADDR": "1635 W Lugonia Ave, Redlands, CA 92374",
-        "ICON": "fa-tags",
+        "ICON": "tags",
+        "ICON_LINE": "<i class = 'fa-solid fa-tags'></i>",
         "ICON_STR": "tags",
         "COLOR": "darkblue",
         "lat": 34.0694582,
@@ -2245,7 +2357,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.470090147588,
+          -117.4700901,
           34.150330616116
         ]
       },
@@ -2254,18 +2366,19 @@
         "LONG_NAME": "Marshalls",
         "LIFESTYLE_CAT": "Store",
         "ADDR": "15022 Summit Ave, Fontana, CA 92336",
-        "ICON": "fa-tags",
+        "ICON": "tags",
+        "ICON_LINE": "<i class = 'fa-solid fa-tags'></i>",
         "ICON_STR": "tags",
         "COLOR": "darkblue",
         "lat": 34.150330616116,
-        "long": -117.470090147588
+        "long": -117.4700901
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.265476810099,
+          -117.2654768,
           33.93667745
         ]
       },
@@ -2274,18 +2387,19 @@
         "LONG_NAME": "T.J. Maxx",
         "LIFESTYLE_CAT": "Store",
         "ADDR": "12625 Frederick St, Moreno Valley, CA 92553",
-        "ICON": "fa-tags",
+        "ICON": "tags",
+        "ICON_LINE": "<i class = 'fa-solid fa-tags'></i>",
         "ICON_STR": "tags",
         "COLOR": "darkred",
         "lat": 33.93667745,
-        "long": -117.265476810099
+        "long": -117.2654768
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.430789431906,
+          -117.4307894,
           34.0631217035
         ]
       },
@@ -2294,11 +2408,12 @@
         "LONG_NAME": "T.J. Maxx",
         "LIFESTYLE_CAT": "Store",
         "ADDR": "17144 Slover Ave, Fontana, CA 92337",
-        "ICON": "fa-tags",
+        "ICON": "tags",
+        "ICON_LINE": "<i class = 'fa-solid fa-tags'></i>",
         "ICON_STR": "tags",
         "COLOR": "darkred",
         "lat": 34.0631217035,
-        "long": -117.430789431906
+        "long": -117.4307894
       }
     },
     {
@@ -2314,7 +2429,8 @@
         "LONG_NAME": "T.J. Maxx",
         "LIFESTYLE_CAT": "Store",
         "ADDR": "27651-D W San Bernardino Ave, Redlands, CA 92374",
-        "ICON": "fa-tags",
+        "ICON": "tags",
+        "ICON_LINE": "<i class = 'fa-solid fa-tags'></i>",
         "ICON_STR": "tags",
         "COLOR": "darkred",
         "lat": 34.077349,
@@ -2334,7 +2450,8 @@
         "LONG_NAME": "T.J. Maxx",
         "LIFESTYLE_CAT": "Store",
         "ADDR": "277 E 40th St, San Bernardino, CA 92404",
-        "ICON": "fa-tags",
+        "ICON": "tags",
+        "ICON_LINE": "<i class = 'fa-solid fa-tags'></i>",
         "ICON_STR": "tags",
         "COLOR": "darkred",
         "lat": 34.1650071,
@@ -2345,7 +2462,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.519526480969,
+          -117.5195265,
           33.88832442238
         ]
       },
@@ -2354,18 +2471,19 @@
         "LONG_NAME": "T.J. Maxx",
         "LIFESTYLE_CAT": "Store",
         "ADDR": "390 N McKinley St, Corona, CA 92879",
-        "ICON": "fa-tags",
+        "ICON": "tags",
+        "ICON_LINE": "<i class = 'fa-solid fa-tags'></i>",
         "ICON_STR": "tags",
         "COLOR": "darkred",
         "lat": 33.88832442238,
-        "long": -117.519526480969
+        "long": -117.5195265
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.870638177646,
+          -117.8706382,
           33.9105756
         ]
       },
@@ -2374,18 +2492,19 @@
         "LONG_NAME": "T.J. Maxx",
         "LIFESTYLE_CAT": "Store",
         "ADDR": "2500 E Imperial Hwy, Brea, CA 92821",
-        "ICON": "fa-tags",
+        "ICON": "tags",
+        "ICON_LINE": "<i class = 'fa-solid fa-tags'></i>",
         "ICON_STR": "tags",
         "COLOR": "darkred",
         "lat": 33.9105756,
-        "long": -117.870638177646
+        "long": -117.8706382
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.271425311768,
+          -117.2714253,
           33.93868495
         ]
       },
@@ -2394,11 +2513,12 @@
         "LONG_NAME": "Moreno Valley Mall",
         "LIFESTYLE_CAT": "Store",
         "ADDR": "22500 Town Cir, Moreno Valley, CA 92553",
-        "ICON": "fa-bag-shopping",
+        "ICON": "bag-shopping",
+        "ICON_LINE": "<i class = 'fa-solid fa-bag-shopping'></i>",
         "ICON_STR": "bag",
         "COLOR": "purple",
         "lat": 33.93868495,
-        "long": -117.271425311768
+        "long": -117.2714253
       }
     },
     {
@@ -2414,7 +2534,8 @@
         "LONG_NAME": "Macy's",
         "LIFESTYLE_CAT": "Store",
         "ADDR": "22400 Town Cir, Moreno Valley, CA 92553",
-        "ICON": "fa-shirt",
+        "ICON": "shirt",
+        "ICON_LINE": "<i class = 'fa-solid fa-shirt'></i>",
         "ICON_STR": "shirt",
         "COLOR": "red",
         "lat": 33.938643,
@@ -2425,7 +2546,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.295337221673,
+          -117.2953372,
           34.090817543778
         ]
       },
@@ -2434,11 +2555,12 @@
         "LONG_NAME": "Macy's",
         "LIFESTYLE_CAT": "Store",
         "ADDR": "400 Inland Center Dr, San Bernardino, CA 92408",
-        "ICON": "fa-shirt",
+        "ICON": "shirt",
+        "ICON_LINE": "<i class = 'fa-solid fa-shirt'></i>",
         "ICON_STR": "shirt",
         "COLOR": "red",
         "lat": 34.090817543778,
-        "long": -117.295337221673
+        "long": -117.2953372
       }
     },
     {
@@ -2454,7 +2576,8 @@
         "LONG_NAME": "Macy's",
         "LIFESTYLE_CAT": "Store",
         "ADDR": "3500 Tyler St, Riverside, CA 92503",
-        "ICON": "fa-shirt",
+        "ICON": "shirt",
+        "ICON_LINE": "<i class = 'fa-solid fa-shirt'></i>",
         "ICON_STR": "shirt",
         "COLOR": "red",
         "lat": 33.906836,
@@ -2465,7 +2588,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.53099920872,
+          -117.5309992,
           34.111688058968
         ]
       },
@@ -2474,11 +2597,12 @@
         "LONG_NAME": "Macy's",
         "LIFESTYLE_CAT": "Store",
         "ADDR": "7855 Kew Ave, Rancho Cucamonga, CA 91739",
-        "ICON": "fa-shirt",
+        "ICON": "shirt",
+        "ICON_LINE": "<i class = 'fa-solid fa-shirt'></i>",
         "ICON_STR": "shirt",
         "COLOR": "red",
         "lat": 34.111688058968,
-        "long": -117.53099920872
+        "long": -117.5309992
       }
     },
     {
@@ -2494,7 +2618,8 @@
         "LONG_NAME": "Jurupa Valley/Pedley",
         "LIFESTYLE_CAT": "Transit",
         "ADDR": "6001 Pedley Rd, Riverside, CA 92503",
-        "ICON": "fa-train-subway",
+        "ICON": "train-subway",
+        "ICON_LINE": "<i class = 'fa-solid fa-train-subway'></i>",
         "ICON_STR": "train",
         "COLOR": "beige",
         "lat": 33.978998,
@@ -2514,7 +2639,8 @@
         "LONG_NAME": "Jurupa Valley/Pedley",
         "LIFESTYLE_CAT": "Transit",
         "ADDR": "6001 Pedley Rd, Riverside, CA 92503",
-        "ICON": "fa-train-subway",
+        "ICON": "train-subway",
+        "ICON_LINE": "<i class = 'fa-solid fa-train-subway'></i>",
         "ICON_STR": "train",
         "COLOR": "beige",
         "lat": 33.978998,
@@ -2525,7 +2651,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.235896150987,
+          -118.2358962,
           34.0560576
         ]
       },
@@ -2534,18 +2660,19 @@
         "LONG_NAME": "Los Angeles Union Station",
         "LIFESTYLE_CAT": "Transit",
         "ADDR": "800 N Alameda St, Los Angeles, CA 90012",
-        "ICON": "fa-train-subway",
+        "ICON": "train-subway",
+        "ICON_LINE": "<i class = 'fa-solid fa-train-subway'></i>",
         "ICON_STR": "train",
         "COLOR": "beige",
         "lat": 34.0560576,
-        "long": -118.235896150987
+        "long": -118.2358962
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.235896150987,
+          -118.2358962,
           34.0560576
         ]
       },
@@ -2554,11 +2681,12 @@
         "LONG_NAME": "Los Angeles Union Station",
         "LIFESTYLE_CAT": "Transit",
         "ADDR": "800 N Alameda St, Los Angeles, CA 90012",
-        "ICON": "fa-train-subway",
+        "ICON": "train-subway",
+        "ICON_LINE": "<i class = 'fa-solid fa-train-subway'></i>",
         "ICON_STR": "train",
         "COLOR": "beige",
         "lat": 34.0560576,
-        "long": -118.235896150987
+        "long": -118.2358962
       }
     },
     {
@@ -2574,7 +2702,8 @@
         "LONG_NAME": "Moreno Valley/March Field",
         "LIFESTYLE_CAT": "Transit",
         "ADDR": "14160 Meridian Pkwy, Riverside, CA 92518",
-        "ICON": "fa-train-subway",
+        "ICON": "train-subway",
+        "ICON_LINE": "<i class = 'fa-solid fa-train-subway'></i>",
         "ICON_STR": "train",
         "COLOR": "beige",
         "lat": 33.9168075,
@@ -2594,7 +2723,8 @@
         "LONG_NAME": "Moreno Valley/March Field",
         "LIFESTYLE_CAT": "Transit",
         "ADDR": "14160 Meridian Pkwy, Riverside, CA 92518",
-        "ICON": "fa-train-subway",
+        "ICON": "train-subway",
+        "ICON_LINE": "<i class = 'fa-solid fa-train-subway'></i>",
         "ICON_STR": "train",
         "COLOR": "beige",
         "lat": 33.9168075,
@@ -2605,7 +2735,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.370881135922,
+          -117.3708811,
           33.976185174757
         ]
       },
@@ -2614,18 +2744,19 @@
         "LONG_NAME": "Riverside - Downtown",
         "LIFESTYLE_CAT": "Transit",
         "ADDR": "4066 Vine St, Riverside, CA 92507",
-        "ICON": "fa-train-subway",
+        "ICON": "train-subway",
+        "ICON_LINE": "<i class = 'fa-solid fa-train-subway'></i>",
         "ICON_STR": "train",
         "COLOR": "beige",
         "lat": 33.976185174757,
-        "long": -117.370881135922
+        "long": -117.3708811
       }
     },
     {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.370881135922,
+          -117.3708811,
           33.976185174757
         ]
       },
@@ -2634,11 +2765,12 @@
         "LONG_NAME": "Riverside - Downtown",
         "LIFESTYLE_CAT": "Transit",
         "ADDR": "4066 Vine St, Riverside, CA 92507",
-        "ICON": "fa-train-subway",
+        "ICON": "train-subway",
+        "ICON_LINE": "<i class = 'fa-solid fa-train-subway'></i>",
         "ICON_STR": "train",
         "COLOR": "beige",
         "lat": 33.976185174757,
-        "long": -117.370881135922
+        "long": -117.3708811
       }
     },
     {
@@ -2654,7 +2786,8 @@
         "LONG_NAME": "Riverside - Hunter Park/UCR",
         "LIFESTYLE_CAT": "Transit",
         "ADDR": "1099 Marlborough Ave, Riverside, CA 92507",
-        "ICON": "fa-train-subway",
+        "ICON": "train-subway",
+        "ICON_LINE": "<i class = 'fa-solid fa-train-subway'></i>",
         "ICON_STR": "train",
         "COLOR": "beige",
         "lat": 33.997536,
@@ -2674,7 +2807,8 @@
         "LONG_NAME": "Riverside - Hunter Park/UCR",
         "LIFESTYLE_CAT": "Transit",
         "ADDR": "1099 Marlborough Ave, Riverside, CA 92507",
-        "ICON": "fa-train-subway",
+        "ICON": "train-subway",
+        "ICON_LINE": "<i class = 'fa-solid fa-train-subway'></i>",
         "ICON_STR": "train",
         "COLOR": "beige",
         "lat": 33.997536,
@@ -2694,7 +2828,8 @@
         "LONG_NAME": "Riverside - La Sierra",
         "LIFESTYLE_CAT": "Transit",
         "ADDR": "10901 Indiana Ave, Riverside, CA 92503",
-        "ICON": "fa-train-subway",
+        "ICON": "train-subway",
+        "ICON_LINE": "<i class = 'fa-solid fa-train-subway'></i>",
         "ICON_STR": "train",
         "COLOR": "beige",
         "lat": 33.913288,
@@ -2714,7 +2849,8 @@
         "LONG_NAME": "Riverside - La Sierra",
         "LIFESTYLE_CAT": "Transit",
         "ADDR": "10901 Indiana Ave, Riverside, CA 92503",
-        "ICON": "fa-train-subway",
+        "ICON": "train-subway",
+        "ICON_LINE": "<i class = 'fa-solid fa-train-subway'></i>",
         "ICON_STR": "train",
         "COLOR": "beige",
         "lat": 33.913288,
@@ -2725,7 +2861,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.339785827195,
+          -117.3397858,
           33.9642567
         ]
       },
@@ -2734,11 +2870,12 @@
         "LONG_NAME": "University of California, Riverside",
         "LIFESTYLE_CAT": "Work",
         "ADDR": "900 University Ave. Riverside, CA 92521",
-        "ICON": "fa-briefcase",
+        "ICON": "briefcase",
+        "ICON_LINE": "<i class = 'fa-solid fa-briefcase'></i>",
         "ICON_STR": "work",
         "COLOR": "darkblue",
         "lat": 33.9642567,
-        "long": -117.339785827195
+        "long": -117.3397858
       }
     }
   ]

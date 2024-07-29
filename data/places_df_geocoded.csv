@@ -1,138 +1,138 @@
-LONG_NAME,LIFESTYLE_CAT,ADDR,ICON,ICON_STR,COLOR,lat,long
-LAX,Airport,"1 World Way, Los Angeles, CA 90045",fa-plane-departure,plane,cadetblue,33.9459832,-118.4013208
-SFO,Airport,"780 S Airport Blvd, San Francisco, CA 94128",fa-plane-departure,plane,cadetblue,37.622451999999996,-122.38398938548363
-ATL,Airport,"6000 North Terminal Pkwy, Atlanta, GA 30320",fa-plane-departure,plane,cadetblue,33.63740085,-84.42981606522355
-DEN,Airport,"8500 Pena Blvd, Denver, CO 80249",fa-plane-departure,plane,cadetblue,39.8410082,-104.7352219
-LAS,Airport,"5757 Wayne Newton Blvd, Las Vegas, NV 89119",fa-plane-departure,plane,cadetblue,36.0861034,-115.1611197919236
-ONT,Airport,"2900 E Airport Dr, Ontario, CA 91761",fa-plane-departure,plane,cadetblue,34.0603862,-117.5898177
-Castlerock,Apartment,"5700 Lochmoor Dr, Riverside, CA 92507",fa-house-chimney,house,pink,33.9477003,-117.30308329135102
-Centerpointe at Market,Apartment,"3145 Market St, Riverside, CA 92501",fa-house-chimney,house,pink,33.98888016167695,-117.3715413124619
-Citron Apartment Homes,Apartment,"3661 Merrill Ave, Riverside, CA 92506",fa-house-chimney,house,pink,33.95664261789426,-117.39233010899214
-Imperial Hardware Lofts,Apartment,"3750 Main St, Riverside, CA 92501",fa-house-chimney,house,pink,33.98206845,-117.37392249413253
-Madison Park,Apartment,"3571 Madison St, Riverside, CA 92504",fa-house-chimney,house,pink,33.93775445,-117.40607439497364
-MARK Riverside,Apartment,"3777 Mission Inn Ave, Riverside, CA 92501",fa-house-chimney,house,pink,33.983441978853364,-117.37462456656546
-Mission Lofts,Apartment,"3050 Mission Inn Ave, Riverside, CA 92507",fa-house-chimney,house,pink,33.97898116640774,-117.36543548961373
-Sorano Apartments,Apartment,"12406 Clark St, Moreno Valley, CA 92557",fa-house-chimney,house,pink,33.9496013,-117.2877463
-The Hawthorne,Apartment,"9170 Indiana Ave, Riverside, CA 92503",fa-house-chimney,house,pink,33.91774523913044,-117.43524286956522
-The Met Apartments,Apartment,"2770 Atlanta Ave, Riverside, CA 92507",fa-house-chimney,house,pink,33.98750800671141,-117.34397398657718
-Villa Camille Apartments,Apartment,"13068 Edgemont St, Moreno Valley, CA 92553",fa-house-chimney,house,pink,33.93025538594657,-117.28329967356977
-Sephora,Beauty,"2061 Galleria at Tyler, Riverside, CA 92503",fa-spray-can-sparkles,spray,black,33.9098266,-117.45698750314014
-Sephora,Beauty,"19260 Van Buren Boulevard, Riverside, CA 92508",fa-spray-can-sparkles,spray,black,33.889133650000005,-117.32730565815524
-Sephora,Beauty,"12506 N Mainstreet, Rancho Cucamonga, CA 91739",fa-spray-can-sparkles,spray,black,34.1120264868082,-117.5321321354775
-Sephora,Beauty,"27200 Eucalyptus Ave, Moreno Valley, CA 92555",fa-spray-can-sparkles,spray,black,33.9383256,-117.18767738165457
-Sephora,Beauty,"27540 W Lugonia Ave, Redlands, CA 92374",fa-spray-can-sparkles,spray,black,34.07311115,-117.20281135463887
-Sephora,Beauty,"3520 Tyler St, Riverside, CA 92503",fa-spray-can-sparkles,spray,black,33.90629485,-117.45985449820147
-Sephora,Beauty,"14960 Summit Ave, Fontana, CA 92336",fa-spray-can-sparkles,spray,black,34.14976876576587,-117.4726276672181
-Sephora,Beauty,"470 Hidden Valley Pkwy, Corona, CA 92879",fa-spray-can-sparkles,spray,black,33.89768207163817,-117.55270884754307
-Sephora,Beauty,"12315 Limonite Ave, Eastvale, CA 91752",fa-spray-can-sparkles,spray,black,33.97836205,-117.55074867663606
-Ulta,Beauty,"3625 Riverside Plaza Dr, Riverside, CA 92506",fa-spray-can-sparkles,spray,orange,33.955083,-117.3918882
-Ulta,Beauty,"1512 S Riverside Ave, Rialto, CA 92376",fa-spray-can-sparkles,spray,orange,34.073737553075375,-117.37041674767023
-Ulta,Beauty,"1688 N Perris Blvd, Perris, CA 92571",fa-spray-can-sparkles,spray,orange,33.8022378,-117.23058361399411
-Ulta,Beauty,"18418 Collier Ave, Lake Elsinore, CA 92530",fa-spray-can-sparkles,spray,orange,33.6899308,-117.337938
-Ulta,Beauty,"30050 Haun Rd, Menifee, CA 92584",fa-spray-can-sparkles,spray,orange,33.68412710204082,-117.17545597959183
-Cannabis Store,Cannabis,"10187 Magnolia Ave, Riverside, CA 92503",fa-cannabis,cannabis,lightgreen,33.91315796025459,-117.45938664777042
-Cannabis Store,Cannabis,"1270 Center St, Riverside, CA 92507",fa-cannabis,cannabis,lightgreen,34.015422,-117.33929389802371
-Cannabis Store,Cannabis,"14070 Perris Blvd, Moreno Valley, CA 92553",fa-cannabis,cannabis,lightgreen,33.916229251205884,-117.22622232733758
-Cannabis Store,Cannabis,"21820 Alessandro Blvd, Moreno Valley, CA 92553",fa-cannabis,cannabis,lightgreen,33.91674126677051,-117.28314353509857
-Cannabis Store,Cannabis,"3311 Market St, Riverside, CA 92501",fa-cannabis,cannabis,lightgreen,33.98733835,-117.3728010783511
-Cannabis Store,Cannabis,"9806 Mission Blvd, Riverside, CA 92509",fa-cannabis,cannabis,lightgreen,34.01143359683627,-117.49861954260088
-Walmart,Grocery,"6250 Valley Springs Pkwy, Riverside, CA 92507",fa-cart-shopping,cart,blue,33.94021806178332,-117.28817422439117
-Walmart,Grocery,"1120 S Mt Vernon Ave, Colton, CA 92324",fa-cart-shopping,cart,blue,34.0570808,-117.3093166
-Walmart,Grocery,"1366 S Riverside Ave, Rialto, CA 92376",fa-cart-shopping,cart,blue,34.0763996,-117.37327
-Walmart,Grocery,"5200 Van Buren Boulevard, Riverside, CA 92503",fa-cart-shopping,cart,blue,33.9367789,-117.454972
-Walmart,Grocery,"12721 Moreno Beach Dr, Moreno Valley, CA 92555",fa-cart-shopping,cart,blue,33.9357718,-117.1819294
-Walmart,Grocery,"2050 W Redlands Blvd, Redlands, CA 92373",fa-cart-shopping,cart,blue,34.0650396,-117.222756
-Walmart,Grocery,"17251 Foothill Blvd, Fontana, CA 92335",fa-cart-shopping,cart,blue,34.1057132,-117.42815235
-Walmart,Grocery,"479 N McKinley St, Corona, CA 92879",fa-cart-shopping,cart,blue,33.8910578,-117.5178999
-Walmart,Grocery,"4210 Highland Ave, Highland, CA 92346",fa-cart-shopping,cart,blue,34.13762725,-117.19488926950231
-Walmart,Grocery,"1800 N Perris Blvd, Perris, CA 92571",fa-cart-shopping,cart,blue,33.80617145,-117.22954147217943
-Walmart,Grocery,"1001 Columbia Ave, Riverside, CA 92507",fa-cart-shopping,cart,blue,34.002952500000006,-117.33262926346278
-Walmart,Grocery,"8844 Limonite Ave, Jurupa Valley, CA 92509",fa-cart-shopping,cart,blue,33.974342300000004,-117.47673757188863
-Walmart,Grocery,"4001 Hallmark Pkwy, San Bernardino, CA 92407",fa-cart-shopping,cart,blue,34.1653946,-117.33617005989717
-Walmart,Grocery,"1290 E Ontario Ave, Corona, CA 92881",fa-cart-shopping,cart,blue,33.8459858,-117.54130575486438
-Walmart,Grocery,"12549 Foothill Blvd, Rancho Cucamonga, CA 91739",fa-cart-shopping,cart,blue,34.10341815,-117.53156373989191
-Ralphs,Grocery,"5225 Canyon Crest Dr, Riverside, CA 92507",fa-basket-shopping,basket,darkred,33.9571723,-117.3304264
-Ralphs,Grocery,"6155 Magnolia Ave, Riverside, CA 92506",fa-basket-shopping,basket,darkred,33.9592269,-117.3943342
-Ralphs,Grocery,"3350 La Sierra Ave, Riverside, CA 92503",fa-basket-shopping,basket,darkred,33.8954112,-117.4715996
-Ralphs,Grocery,"16225 Sierra Lakes Pkwy, Fontana, CA 92336",fa-basket-shopping,basket,darkred,34.1376277,-117.4507942
-Ralphs,Grocery,"12660 Limonite Ave, Eastvale, CA 92880",fa-basket-shopping,basket,darkred,33.97489985,-117.55894905
-Ralphs,Grocery,"4444 University Pkwy, San Bernardino, CA 92407",fa-basket-shopping,basket,darkred,34.169685799999996,-117.33434399116796
-Ralphs,Grocery,"12201 Highland Ave, Rancho Cucamonga, CA 91739",fa-basket-shopping,basket,darkred,34.13490645,-117.53936502286336
-Ralphs,Grocery,"7369 Milliken Ave, Rancho Cucamonga, CA 91730",fa-basket-shopping,basket,darkred,34.1199443,-117.5571712
-Ralphs,Grocery,"7243 Haven Ave, Rancho Cucamonga, CA 91701",fa-basket-shopping,basket,darkred,34.1236472,-117.57543902498617
-Ralphs,Grocery,"2661 Green River Rd, Corona, CA 92882",fa-basket-shopping,basket,darkred,33.87157635,-117.6218344312147
-Grocery Store,Grocery,"27100 Eucalyptus Ave, Moreno Valley, CA 92555",fa-basket-shopping,basket,lightblue,33.9380447,-117.18965317769008
-Grocery Store,Grocery,"2744 Canyon Springs Pkwy, Riverside, CA 92507",fa-basket-shopping,basket,lightblue,33.94046957206333,-117.28136352733999
-Grocery Store,Grocery,"2975 Van Buren Boulevard, Riverside, CA 92503",fa-basket-shopping,basket,lightblue,33.9098993,-117.436339
-Grocery Store,Grocery,"3310 Vine St, Riverside, CA 92507",fa-basket-shopping,basket,lightblue,33.98390434131208,-117.36546484339719
-Grocery Store,Grocery,"3550 Madison St, Riverside, CA 92504",fa-basket-shopping,basket,lightblue,33.936965402566486,-117.40591042442682
-Costco,Grocery,"12700 Day St, Moreno Valley, CA 92553",fa-cart-plus,cartplus,red,33.9360407,-117.2757429
-Costco,Grocery,"1099 E Hospitality Ln, San Bernardino, CA 92408",fa-cart-plus,cartplus,red,34.069058,-117.266828
-Costco,Grocery,"16505 Sierra Lakes Pkwy, Fontana, CA 92336",fa-cart-plus,cartplus,red,34.1373663,-117.44337600116957
-Costco,Grocery,"480 N McKinley St, Corona, CA 92879",fa-cart-plus,cartplus,red,33.889568161060474,-117.52059737828745
-Studio Movie Grill,Historical,"40 Powers Ferry Rd, Marietta, GA 30067",fa-film,film,black,33.949051100000005,-84.5146016403662
-Kennesaw State University,Historical,"1100 South Marietta Pkwy SE, Marietta, GA 30060",fa-graduation-cap,grad,black,33.9404888,-84.5202865
-Hotel Indigo - DTLA,Historical,"899 Francisco St, Los Angeles, CA 90017",fa-bed,bed,darkpurple,34.04732935,-118.26452295213429
-Holiday Inn Express - Union Square,Historical,"235 O'Farrell St, San Francisco, CA 94102",fa-bed,bed,darkpurple,37.7861752,-122.4086673
-The Bristol Hotel - San Diego,Historical,"1055 First Ave., San Diego, CA 92101",fa-bed,bed,darkpurple,32.7113383,-117.1637798
-Candlewood Suites - San Diego,Historical,"1335 Hotel Cir S, San Diego, CA 92108",fa-bed,bed,darkpurple,32.758922537908965,-117.17611075206248
-Mariott Riverside at the Convention Center,Historical,"3400 Market St, Riverside, CA 92501",fa-bed,bed,darkpurple,33.986292,-117.373069
-A Home for Darker Days,Historical,"1450 Kennesaw Trace Ct, Kennesaw, GA 30144",fa-house-fire,housefire,gray,34.041633306542224,-84.60125570459522
-Fernbank Museum,Historical,"156 Heaton Park Dr, Atlanta, GA 30307",fa-building-columns,building,green,33.77874945,-84.31808799600464
-Georgia Aquarium,Historical,"225 Baker St NW, Atlanta, GA 30313",fa-fish-fins,fish,lightblue,33.76326745,-84.3951172668585
-CalTech,Historical,"1200 E California Blvd, Pasadena, CA 91125",fa-graduation-cap,grad,orange,34.135903,-118.1242746
-IHG - InterContinental Hotels Group,Historical,"3 Ravinia Drive, Atlanta, GA 30346",fa-hotel,hotel,orange,33.9207353,-84.33492949330648
-Hawthorne at Kennesaw,Historical,"4045 George Busbee Pkwy NW, Kennesaw, GA 30144",fa-house-circle-xmark,housex,pink,34.04957671212121,-84.58426230808081
-MAA Shiloh,Historical,"1750 Shiloh Rd NW, Kennesaw, GA 30144",fa-house-circle-xmark,housex,pink,34.050982,-84.5948618
-Silver Creek Apartments,Historical,"1776 Summit Forest Dr, Marietta, GA 30068",fa-house-circle-xmark,housex,pink,33.955598,-84.499664
-My Sisters Room,Historical,"1104 Crescent Ave NE, Atlanta, GA 30309",fa-martini-glass-citrus,martini,purple,33.78483865,-84.38459951676829
-Perimeter Mall,Historical,"4400 Ashford Dunwoody Rd, Atlanta, GA 30346",fa-bag-shopping,bag,purple,33.9235375,-84.3401973
-Six Flags Over Georgia,Historical,"275 Riverside Pkwy, Austell, GA 30168",fa-cable-car,cablecar,purple,33.7670764,-84.55107182322945
-Town Center Mall,Historical,"400 Ernest W Barrett Pkwy NW, Kennesaw, GA 30144",fa-bag-shopping,bag,purple,33.9930013,-84.5971416
-SD Zoo,Social,"2920 Zoo Drive, San Diego, CA 92101",fa-hippo,hippo,green,32.73598735,-117.15065415761478
-Los Angeles Zoo and Botanical Gardens,Social,"5333 Zoo Dr, Los Angeles, CA 90027",fa-hippo,hippo,green,34.14735967584098,-118.28440251376146
-San Francisco Zoo,Social,"Sloat Blvd &, Upper Great Hwy, San Francisco, CA 94132",fa-hippo,hippo,green,37.7354329,-122.507235
-Aquarium of the Pacific,Social,"100 Aquarium Way, Long Beach, CA 90802",fa-fish-fins,fish,lightblue,33.76320387640536,-118.1966742838778
-Riverside Art Museum,Social,"3425 Mission Inn Avenue, Riverside, CA 92501",fa-palette,palette,pink,33.981586624946075,-117.37061597496074
-GLBT Historical Society Museum,Social,"4127 18th St, San Francisco, CA 94114",fa-building-columns,building,pink,37.7607664,-122.435607
-Disneyland,Social,"1150 Magic Way, Anaheim, CA 92802",fa-wand-magic-sparkles,wand,purple,33.8082809,-117.9265806
-Abbey,Social,"692 N Robertson Blvd, West Hollywood, CA 90069",fa-martini-glass-citrus,martini,purple,34.0833871,-118.385144
-Blondie's Bar,Social,"540 Valencia St, San Francisco, CA 94110",fa-martini-glass-citrus,martini,purple,37.764214949999996,-122.42210435
-Six Flags Magic Mountain,Social,"26101 Magic Mountain Pkwy, Valencia, CA 91355",fa-cable-car,cablecar,purple,34.4250568,-118.59704538814593
-The Ruby Fruit,Social,"3510 Sunset Blvd, Los Angeles, CA 90026",fa-martini-glass-citrus,martini,purple,34.08883255102041,-118.27655863265306
-Knott's Berry Farm,Social,"8039 Beach Blvd, Buena Park, CA 90620",fa-cable-car,cablecar,purple,33.8446407,-118.0000058
-Six Flags Discovery Kingdom,Social,"1001 Fairgrounds Dr, Vallejo, CA 94589",fa-cable-car,cablecar,purple,38.1395033,-122.2324377
-AMC,Social,"3775 Tyler St, Riverside, CA 92503",fa-film,film,red,33.911523096998444,-117.46093761051468
-Los Angeles County Museum of Art,Social,"5905 Wilshire Blvd, Los Angeles, CA 90036",fa-palette,palette,pink,34.06447235,-118.35994593475988
-The Getty Center,Social,"1200 Getty Center Dr, Los Angeles, CA 90049",fa-building-columns,building,green,34.07695125,-118.47571198123117
-The Broad,Social,"221 S Grand Ave, Los Angeles, CA 90012",fa-palette,palette,pink,34.0544584,-118.25059415175812
-Jurupa Mountains Discovery Center,Social,"7621 Granite Hill Dr, Riverside, CA 92509",fa-building-columns,building,green,34.01460957665105,-117.44878083617421
-Marshalls,Store,"3635 Riverside Plaza Dr, Riverside, CA 92506",fa-tags,tags,darkblue,33.9554404,-117.39154101603455
-Marshalls,Store,"2676 Canyon Springs Pkwy, Riverside, CA 92507",fa-tags,tags,darkblue,33.941245907548904,-117.2828588478718
-Marshalls,Store,"741 W 2nd St, San Bernardino, CA 92410",fa-tags,tags,darkblue,34.1026448351419,-117.29962488684282
-Marshalls,Store,"1635 W Lugonia Ave, Redlands, CA 92374",fa-tags,tags,darkblue,34.0694582,-117.2106793
-Marshalls,Store,"15022 Summit Ave, Fontana, CA 92336",fa-tags,tags,darkblue,34.15033061611592,-117.47009014758751
-T.J. Maxx,Store,"12625 Frederick St, Moreno Valley, CA 92553",fa-tags,tags,darkred,33.93667745,-117.26547681009906
-T.J. Maxx,Store,"17144 Slover Ave, Fontana, CA 92337",fa-tags,tags,darkred,34.063121703499604,-117.4307894319061
-T.J. Maxx,Store,"27651-D W San Bernardino Ave, Redlands, CA 92374",fa-tags,tags,darkred,34.077349,-117.1917297
-T.J. Maxx,Store,"277 E 40th St, San Bernardino, CA 92404",fa-tags,tags,darkred,34.1650071,-117.2702443
-T.J. Maxx,Store,"390 N McKinley St, Corona, CA 92879",fa-tags,tags,darkred,33.88832442237993,-117.51952648096886
-T.J. Maxx,Store,"2500 E Imperial Hwy, Brea, CA 92821",fa-tags,tags,darkred,33.9105756,-117.8706381776456
-Moreno Valley Mall,Store,"22500 Town Cir, Moreno Valley, CA 92553",fa-bag-shopping,bag,purple,33.93868495,-117.27142531176779
-Macy's,Store,"22400 Town Cir, Moreno Valley, CA 92553",fa-shirt,shirt,red,33.938643,-117.275137
-Macy's,Store,"400 Inland Center Dr, San Bernardino, CA 92408",fa-shirt,shirt,red,34.090817543777824,-117.29533722167344
-Macy's,Store,"3500 Tyler St, Riverside, CA 92503",fa-shirt,shirt,red,33.906836,-117.457361
-Macy's,Store,"7855 Kew Ave, Rancho Cucamonga, CA 91739",fa-shirt,shirt,red,34.111688058968355,-117.53099920871956
-Jurupa Valley/Pedley,Transit,"6001 Pedley Rd, Riverside, CA 92503",fa-train-subway,train,beige,33.978998,-117.475515
-Jurupa Valley/Pedley,Transit,"6001 Pedley Rd, Riverside, CA 92503",fa-train-subway,train,beige,33.978998,-117.475515
-Los Angeles Union Station,Transit,"800 N Alameda St, Los Angeles, CA 90012",fa-train-subway,train,beige,34.0560576,-118.23589615098697
-Los Angeles Union Station,Transit,"800 N Alameda St, Los Angeles, CA 90012",fa-train-subway,train,beige,34.0560576,-118.23589615098697
-Moreno Valley/March Field,Transit,"14160 Meridian Pkwy, Riverside, CA 92518",fa-train-subway,train,beige,33.9168075,-117.2920621
-Moreno Valley/March Field,Transit,"14160 Meridian Pkwy, Riverside, CA 92518",fa-train-subway,train,beige,33.9168075,-117.2920621
-Riverside - Downtown,Transit,"4066 Vine St, Riverside, CA 92507",fa-train-subway,train,beige,33.97618517475728,-117.37088113592233
-Riverside - Downtown,Transit,"4066 Vine St, Riverside, CA 92507",fa-train-subway,train,beige,33.97618517475728,-117.37088113592233
-Riverside - Hunter Park/UCR,Transit,"1099 Marlborough Ave, Riverside, CA 92507",fa-train-subway,train,beige,33.997536,-117.335309
-Riverside - Hunter Park/UCR,Transit,"1099 Marlborough Ave, Riverside, CA 92507",fa-train-subway,train,beige,33.997536,-117.335309
-Riverside - La Sierra,Transit,"10901 Indiana Ave, Riverside, CA 92503",fa-train-subway,train,beige,33.913288,-117.4429513
-Riverside - La Sierra,Transit,"10901 Indiana Ave, Riverside, CA 92503",fa-train-subway,train,beige,33.913288,-117.4429513
-"University of California, Riverside",Work,"900 University Ave. Riverside, CA 92521",fa-briefcase,work,darkblue,33.9642567,-117.3397858271953
+LONG_NAME,LIFESTYLE_CAT,ADDR,ICON,ICON_LINE,ICON_STR,COLOR,lat,long
+LAX,Airport,"1 World Way, Los Angeles, CA 90045",plane-departure,<i class = 'fa-solid fa-plane-departure'></i>,plane,cadetblue,33.9459832,-118.4013208
+SFO,Airport,"780 S Airport Blvd, San Francisco, CA 94128",plane-departure,<i class = 'fa-solid fa-plane-departure'></i>,plane,cadetblue,37.622451999999996,-122.3839894
+ATL,Airport,"6000 North Terminal Pkwy, Atlanta, GA 30320",plane-departure,<i class = 'fa-solid fa-plane-departure'></i>,plane,cadetblue,33.63740085,-84.42981607
+DEN,Airport,"8500 Pena Blvd, Denver, CO 80249",plane-departure,<i class = 'fa-solid fa-plane-departure'></i>,plane,cadetblue,39.8410082,-104.7352219
+LAS,Airport,"5757 Wayne Newton Blvd, Las Vegas, NV 89119",plane-departure,<i class = 'fa-solid fa-plane-departure'></i>,plane,cadetblue,36.0861034,-115.1611198
+ONT,Airport,"2900 E Airport Dr, Ontario, CA 91761",plane-departure,<i class = 'fa-solid fa-plane-departure'></i>,plane,cadetblue,34.0603862,-117.5898177
+Castlerock,Apartment,"5700 Lochmoor Dr, Riverside, CA 92507",house-chimney,<i class = 'fa-solid fa-house-chimney'></i>,house,pink,33.9477003,-117.3030833
+Centerpointe at Market,Apartment,"3145 Market St, Riverside, CA 92501",house-chimney,<i class = 'fa-solid fa-house-chimney'></i>,house,pink,33.98888016167695,-117.3715413
+Citron Apartment Homes,Apartment,"3661 Merrill Ave, Riverside, CA 92506",house-chimney,<i class = 'fa-solid fa-house-chimney'></i>,house,pink,33.95664261789426,-117.3923301
+Imperial Hardware Lofts,Apartment,"3750 Main St, Riverside, CA 92501",house-chimney,<i class = 'fa-solid fa-house-chimney'></i>,house,pink,33.98206845,-117.3739225
+Madison Park,Apartment,"3571 Madison St, Riverside, CA 92504",house-chimney,<i class = 'fa-solid fa-house-chimney'></i>,house,pink,33.93775445,-117.4060744
+MARK Riverside,Apartment,"3777 Mission Inn Ave, Riverside, CA 92501",house-chimney,<i class = 'fa-solid fa-house-chimney'></i>,house,pink,33.983441978853364,-117.3746246
+Mission Lofts,Apartment,"3050 Mission Inn Ave, Riverside, CA 92507",house-chimney,<i class = 'fa-solid fa-house-chimney'></i>,house,pink,33.97898116640774,-117.3654355
+Sorano Apartments,Apartment,"12406 Clark St, Moreno Valley, CA 92557",house-chimney,<i class = 'fa-solid fa-house-chimney'></i>,house,pink,33.9496013,-117.2877463
+The Hawthorne,Apartment,"9170 Indiana Ave, Riverside, CA 92503",house-chimney,<i class = 'fa-solid fa-house-chimney'></i>,house,pink,33.91774523913044,-117.4352429
+The Met Apartments,Apartment,"2770 Atlanta Ave, Riverside, CA 92507",house-chimney,<i class = 'fa-solid fa-house-chimney'></i>,house,pink,33.98750800671141,-117.343974
+Villa Camille Apartments,Apartment,"13068 Edgemont St, Moreno Valley, CA 92553",house-chimney,<i class = 'fa-solid fa-house-chimney'></i>,house,pink,33.93025538594657,-117.2832997
+Sephora,Beauty,"2061 Galleria at Tyler, Riverside, CA 92503",spray-can-sparkles,<i class = 'fa-solid fa-spray-can-sparkles'></i>,spray,black,33.9098266,-117.4569875
+Sephora,Beauty,"19260 Van Buren Boulevard, Riverside, CA 92508",spray-can-sparkles,<i class = 'fa-solid fa-spray-can-sparkles'></i>,spray,black,33.889133650000005,-117.3273057
+Sephora,Beauty,"12506 N Mainstreet, Rancho Cucamonga, CA 91739",spray-can-sparkles,<i class = 'fa-solid fa-spray-can-sparkles'></i>,spray,black,34.11202649,-117.5321321
+Sephora,Beauty,"27200 Eucalyptus Ave, Moreno Valley, CA 92555",spray-can-sparkles,<i class = 'fa-solid fa-spray-can-sparkles'></i>,spray,black,33.9383256,-117.1876774
+Sephora,Beauty,"27540 W Lugonia Ave, Redlands, CA 92374",spray-can-sparkles,<i class = 'fa-solid fa-spray-can-sparkles'></i>,spray,black,34.07311115,-117.2028114
+Sephora,Beauty,"3520 Tyler St, Riverside, CA 92503",spray-can-sparkles,<i class = 'fa-solid fa-spray-can-sparkles'></i>,spray,black,33.90629485,-117.4598545
+Sephora,Beauty,"14960 Summit Ave, Fontana, CA 92336",spray-can-sparkles,<i class = 'fa-solid fa-spray-can-sparkles'></i>,spray,black,34.14976876576587,-117.4726277
+Sephora,Beauty,"470 Hidden Valley Pkwy, Corona, CA 92879",spray-can-sparkles,<i class = 'fa-solid fa-spray-can-sparkles'></i>,spray,black,33.89768207163817,-117.5527088
+Sephora,Beauty,"12315 Limonite Ave, Eastvale, CA 91752",spray-can-sparkles,<i class = 'fa-solid fa-spray-can-sparkles'></i>,spray,black,33.97836205,-117.5507487
+Ulta,Beauty,"3625 Riverside Plaza Dr, Riverside, CA 92506",spray-can-sparkles,<i class = 'fa-solid fa-spray-can-sparkles'></i>,spray,orange,33.955083,-117.3918882
+Ulta,Beauty,"1512 S Riverside Ave, Rialto, CA 92376",spray-can-sparkles,<i class = 'fa-solid fa-spray-can-sparkles'></i>,spray,orange,34.073737553075375,-117.3704167
+Ulta,Beauty,"1688 N Perris Blvd, Perris, CA 92571",spray-can-sparkles,<i class = 'fa-solid fa-spray-can-sparkles'></i>,spray,orange,33.8022378,-117.2305836
+Ulta,Beauty,"18418 Collier Ave, Lake Elsinore, CA 92530",spray-can-sparkles,<i class = 'fa-solid fa-spray-can-sparkles'></i>,spray,orange,33.6899308,-117.337938
+Ulta,Beauty,"30050 Haun Rd, Menifee, CA 92584",spray-can-sparkles,<i class = 'fa-solid fa-spray-can-sparkles'></i>,spray,orange,33.68412710204082,-117.175456
+Cannabis Store,Cannabis,"10187 Magnolia Ave, Riverside, CA 92503",cannabis,<i class = 'fa-solid fa-cannabis'></i>,cannabis,lightgreen,33.91315796025459,-117.4593866
+Cannabis Store,Cannabis,"1270 Center St, Riverside, CA 92507",cannabis,<i class = 'fa-solid fa-cannabis'></i>,cannabis,lightgreen,34.015422,-117.3392939
+Cannabis Store,Cannabis,"14070 Perris Blvd, Moreno Valley, CA 92553",cannabis,<i class = 'fa-solid fa-cannabis'></i>,cannabis,lightgreen,33.916229251205884,-117.2262223
+Cannabis Store,Cannabis,"21820 Alessandro Blvd, Moreno Valley, CA 92553",cannabis,<i class = 'fa-solid fa-cannabis'></i>,cannabis,lightgreen,33.91674126677051,-117.2831435
+Cannabis Store,Cannabis,"3311 Market St, Riverside, CA 92501",cannabis,<i class = 'fa-solid fa-cannabis'></i>,cannabis,lightgreen,33.98733835,-117.3728011
+Cannabis Store,Cannabis,"9806 Mission Blvd, Riverside, CA 92509",cannabis,<i class = 'fa-solid fa-cannabis'></i>,cannabis,lightgreen,34.01143359683627,-117.4986195
+Walmart,Grocery,"6250 Valley Springs Pkwy, Riverside, CA 92507",cart-shopping,<i class = 'fa-solid fa-cart-shopping'></i>,cart,blue,33.94021806178332,-117.2881742
+Walmart,Grocery,"1120 S Mt Vernon Ave, Colton, CA 92324",cart-shopping,<i class = 'fa-solid fa-cart-shopping'></i>,cart,blue,34.0570808,-117.3093166
+Walmart,Grocery,"1366 S Riverside Ave, Rialto, CA 92376",cart-shopping,<i class = 'fa-solid fa-cart-shopping'></i>,cart,blue,34.0763996,-117.37327
+Walmart,Grocery,"5200 Van Buren Boulevard, Riverside, CA 92503",cart-shopping,<i class = 'fa-solid fa-cart-shopping'></i>,cart,blue,33.9367789,-117.454972
+Walmart,Grocery,"12721 Moreno Beach Dr, Moreno Valley, CA 92555",cart-shopping,<i class = 'fa-solid fa-cart-shopping'></i>,cart,blue,33.9357718,-117.1819294
+Walmart,Grocery,"2050 W Redlands Blvd, Redlands, CA 92373",cart-shopping,<i class = 'fa-solid fa-cart-shopping'></i>,cart,blue,34.0650396,-117.222756
+Walmart,Grocery,"17251 Foothill Blvd, Fontana, CA 92335",cart-shopping,<i class = 'fa-solid fa-cart-shopping'></i>,cart,blue,34.1057132,-117.4281524
+Walmart,Grocery,"479 N McKinley St, Corona, CA 92879",cart-shopping,<i class = 'fa-solid fa-cart-shopping'></i>,cart,blue,33.8910578,-117.5178999
+Walmart,Grocery,"4210 Highland Ave, Highland, CA 92346",cart-shopping,<i class = 'fa-solid fa-cart-shopping'></i>,cart,blue,34.13762725,-117.1948893
+Walmart,Grocery,"1800 N Perris Blvd, Perris, CA 92571",cart-shopping,<i class = 'fa-solid fa-cart-shopping'></i>,cart,blue,33.80617145,-117.2295415
+Walmart,Grocery,"1001 Columbia Ave, Riverside, CA 92507",cart-shopping,<i class = 'fa-solid fa-cart-shopping'></i>,cart,blue,34.002952500000006,-117.3326293
+Walmart,Grocery,"8844 Limonite Ave, Jurupa Valley, CA 92509",cart-shopping,<i class = 'fa-solid fa-cart-shopping'></i>,cart,blue,33.974342300000004,-117.4767376
+Walmart,Grocery,"4001 Hallmark Pkwy, San Bernardino, CA 92407",cart-shopping,<i class = 'fa-solid fa-cart-shopping'></i>,cart,blue,34.1653946,-117.3361701
+Walmart,Grocery,"1290 E Ontario Ave, Corona, CA 92881",cart-shopping,<i class = 'fa-solid fa-cart-shopping'></i>,cart,blue,33.8459858,-117.5413058
+Walmart,Grocery,"12549 Foothill Blvd, Rancho Cucamonga, CA 91739",cart-shopping,<i class = 'fa-solid fa-cart-shopping'></i>,cart,blue,34.10341815,-117.5315637
+Ralphs,Grocery,"5225 Canyon Crest Dr, Riverside, CA 92507",basket-shopping,<i class = 'fa-solid fa-basket-shopping'></i>,basket,darkred,33.9571723,-117.3304264
+Ralphs,Grocery,"6155 Magnolia Ave, Riverside, CA 92506",basket-shopping,<i class = 'fa-solid fa-basket-shopping'></i>,basket,darkred,33.9592269,-117.3943342
+Ralphs,Grocery,"3350 La Sierra Ave, Riverside, CA 92503",basket-shopping,<i class = 'fa-solid fa-basket-shopping'></i>,basket,darkred,33.8954112,-117.4715996
+Ralphs,Grocery,"16225 Sierra Lakes Pkwy, Fontana, CA 92336",basket-shopping,<i class = 'fa-solid fa-basket-shopping'></i>,basket,darkred,34.1376277,-117.4507942
+Ralphs,Grocery,"12660 Limonite Ave, Eastvale, CA 92880",basket-shopping,<i class = 'fa-solid fa-basket-shopping'></i>,basket,darkred,33.97489985,-117.5589491
+Ralphs,Grocery,"4444 University Pkwy, San Bernardino, CA 92407",basket-shopping,<i class = 'fa-solid fa-basket-shopping'></i>,basket,darkred,34.169685799999996,-117.334344
+Ralphs,Grocery,"12201 Highland Ave, Rancho Cucamonga, CA 91739",basket-shopping,<i class = 'fa-solid fa-basket-shopping'></i>,basket,darkred,34.13490645,-117.539365
+Ralphs,Grocery,"7369 Milliken Ave, Rancho Cucamonga, CA 91730",basket-shopping,<i class = 'fa-solid fa-basket-shopping'></i>,basket,darkred,34.1199443,-117.5571712
+Ralphs,Grocery,"7243 Haven Ave, Rancho Cucamonga, CA 91701",basket-shopping,<i class = 'fa-solid fa-basket-shopping'></i>,basket,darkred,34.1236472,-117.575439
+Ralphs,Grocery,"2661 Green River Rd, Corona, CA 92882",basket-shopping,<i class = 'fa-solid fa-basket-shopping'></i>,basket,darkred,33.87157635,-117.6218344
+Grocery Store,Grocery,"27100 Eucalyptus Ave, Moreno Valley, CA 92555",basket-shopping,<i class = 'fa-solid fa-basket-shopping'></i>,basket,lightblue,33.9380447,-117.1896532
+Grocery Store,Grocery,"2744 Canyon Springs Pkwy, Riverside, CA 92507",basket-shopping,<i class = 'fa-solid fa-basket-shopping'></i>,basket,lightblue,33.94046957206333,-117.2813635
+Grocery Store,Grocery,"2975 Van Buren Boulevard, Riverside, CA 92503",basket-shopping,<i class = 'fa-solid fa-basket-shopping'></i>,basket,lightblue,33.9098993,-117.436339
+Grocery Store,Grocery,"3310 Vine St, Riverside, CA 92507",basket-shopping,<i class = 'fa-solid fa-basket-shopping'></i>,basket,lightblue,33.98390434131208,-117.3654648
+Grocery Store,Grocery,"3550 Madison St, Riverside, CA 92504",basket-shopping,<i class = 'fa-solid fa-basket-shopping'></i>,basket,lightblue,33.936965402566486,-117.4059104
+Costco,Grocery,"12700 Day St, Moreno Valley, CA 92553",cart-plus,<i class = 'fa-solid fa-cart-plus'></i>,cartplus,red,33.9360407,-117.2757429
+Costco,Grocery,"1099 E Hospitality Ln, San Bernardino, CA 92408",cart-plus,<i class = 'fa-solid fa-cart-plus'></i>,cartplus,red,34.069058,-117.266828
+Costco,Grocery,"16505 Sierra Lakes Pkwy, Fontana, CA 92336",cart-plus,<i class = 'fa-solid fa-cart-plus'></i>,cartplus,red,34.1373663,-117.443376
+Costco,Grocery,"480 N McKinley St, Corona, CA 92879",cart-plus,<i class = 'fa-solid fa-cart-plus'></i>,cartplus,red,33.889568161060474,-117.5205974
+Studio Movie Grill,Historical,"40 Powers Ferry Rd, Marietta, GA 30067",film,<i class = 'fa-solid fa-film'></i>,film,black,33.949051100000005,-84.51460164
+Kennesaw State University,Historical,"1100 South Marietta Pkwy SE, Marietta, GA 30060",graduation-cap,<i class = 'fa-solid fa-graduation-cap'></i>,grad,black,33.9404888,-84.5202865
+Hotel Indigo - DTLA,Historical,"899 Francisco St, Los Angeles, CA 90017",bed,<i class = 'fa-solid fa-bed'></i>,bed,darkpurple,34.04732935,-118.264523
+Holiday Inn Express - Union Square,Historical,"235 O'Farrell St, San Francisco, CA 94102",bed,<i class = 'fa-solid fa-bed'></i>,bed,darkpurple,37.7861752,-122.4086673
+The Bristol Hotel - San Diego,Historical,"1055 First Ave., San Diego, CA 92101",bed,<i class = 'fa-solid fa-bed'></i>,bed,darkpurple,32.7113383,-117.1637798
+Candlewood Suites - San Diego,Historical,"1335 Hotel Cir S, San Diego, CA 92108",bed,<i class = 'fa-solid fa-bed'></i>,bed,darkpurple,32.758922537908965,-117.1761108
+Mariott Riverside at the Convention Center,Historical,"3400 Market St, Riverside, CA 92501",bed,<i class = 'fa-solid fa-bed'></i>,bed,darkpurple,33.986292,-117.373069
+A Home for Darker Days,Historical,"1450 Kennesaw Trace Ct, Kennesaw, GA 30144",house-fire,<i class = 'fa-solid fa-house-fire'></i>,housefire,gray,34.041633306542224,-84.6012557
+Fernbank Museum,Historical,"156 Heaton Park Dr, Atlanta, GA 30307",building-columns,<i class = 'fa-solid fa-building-columns'></i>,building,green,33.77874945,-84.318088
+Georgia Aquarium,Historical,"225 Baker St NW, Atlanta, GA 30313",fish-fins,<i class = 'fa-solid fa-fish-fins'></i>,fish,lightblue,33.76326745,-84.39511727
+CalTech,Historical,"1200 E California Blvd, Pasadena, CA 91125",graduation-cap,<i class = 'fa-solid fa-graduation-cap'></i>,grad,orange,34.135903,-118.1242746
+IHG - InterContinental Hotels Group,Historical,"3 Ravinia Drive, Atlanta, GA 30346",hotel,<i class = 'fa-solid fa-hotel'></i>,hotel,orange,33.9207353,-84.33492949
+Hawthorne at Kennesaw,Historical,"4045 George Busbee Pkwy NW, Kennesaw, GA 30144",house-circle-xmark,<i class = 'fa-solid fa-house-circle-xmark'></i>,housex,pink,34.04957671212121,-84.58426231
+MAA Shiloh,Historical,"1750 Shiloh Rd NW, Kennesaw, GA 30144",house-circle-xmark,<i class = 'fa-solid fa-house-circle-xmark'></i>,housex,pink,34.050982,-84.5948618
+Silver Creek Apartments,Historical,"1776 Summit Forest Dr, Marietta, GA 30068",house-circle-xmark,<i class = 'fa-solid fa-house-circle-xmark'></i>,housex,pink,33.955598,-84.499664
+My Sisters Room,Historical,"1104 Crescent Ave NE, Atlanta, GA 30309",martini-glass-citrus,<i class = 'fa-solid fa-martini-glass-citrus'></i>,martini,purple,33.78483865,-84.38459952
+Perimeter Mall,Historical,"4400 Ashford Dunwoody Rd, Atlanta, GA 30346",bag-shopping,<i class = 'fa-solid fa-bag-shopping'></i>,bag,purple,33.9235375,-84.3401973
+Six Flags Over Georgia,Historical,"275 Riverside Pkwy, Austell, GA 30168",cable-car,<i class = 'fa-solid fa-cable-car'></i>,cablecar,purple,33.7670764,-84.55107182
+Town Center Mall,Historical,"400 Ernest W Barrett Pkwy NW, Kennesaw, GA 30144",bag-shopping,<i class = 'fa-solid fa-bag-shopping'></i>,bag,purple,33.9930013,-84.5971416
+SD Zoo,Social,"2920 Zoo Drive, San Diego, CA 92101",hippo,<i class = 'fa-solid fa-hippo'></i>,hippo,green,32.73598735,-117.1506542
+Los Angeles Zoo and Botanical Gardens,Social,"5333 Zoo Dr, Los Angeles, CA 90027",hippo,<i class = 'fa-solid fa-hippo'></i>,hippo,green,34.14735967584098,-118.2844025
+San Francisco Zoo,Social,"Sloat Blvd &, Upper Great Hwy, San Francisco, CA 94132",hippo,<i class = 'fa-solid fa-hippo'></i>,hippo,green,37.7354329,-122.507235
+Aquarium of the Pacific,Social,"100 Aquarium Way, Long Beach, CA 90802",fish-fins,<i class = 'fa-solid fa-fish-fins'></i>,fish,lightblue,33.76320387640536,-118.1966743
+Riverside Art Museum,Social,"3425 Mission Inn Avenue, Riverside, CA 92501",palette,<i class = 'fa-solid fa-palette'></i>,palette,pink,33.981586624946075,-117.370616
+GLBT Historical Society Museum,Social,"4127 18th St, San Francisco, CA 94114",building-columns,<i class = 'fa-solid fa-building-columns'></i>,building,pink,37.7607664,-122.435607
+Disneyland,Social,"1150 Magic Way, Anaheim, CA 92802",wand-magic-sparkles,<i class = 'fa-solid fa-wand-magic-sparkles'></i>,wand,purple,33.8082809,-117.9265806
+Abbey,Social,"692 N Robertson Blvd, West Hollywood, CA 90069",martini-glass-citrus,<i class = 'fa-solid fa-martini-glass-citrus'></i>,martini,purple,34.0833871,-118.385144
+Blondie's Bar,Social,"540 Valencia St, San Francisco, CA 94110",martini-glass-citrus,<i class = 'fa-solid fa-martini-glass-citrus'></i>,martini,purple,37.764214949999996,-122.4221044
+Six Flags Magic Mountain,Social,"26101 Magic Mountain Pkwy, Valencia, CA 91355",cable-car,<i class = 'fa-solid fa-cable-car'></i>,cablecar,purple,34.4250568,-118.5970454
+The Ruby Fruit,Social,"3510 Sunset Blvd, Los Angeles, CA 90026",martini-glass-citrus,<i class = 'fa-solid fa-martini-glass-citrus'></i>,martini,purple,34.08883255102041,-118.2765586
+Knott's Berry Farm,Social,"8039 Beach Blvd, Buena Park, CA 90620",cable-car,<i class = 'fa-solid fa-cable-car'></i>,cablecar,purple,33.8446407,-118.0000058
+Six Flags Discovery Kingdom,Social,"1001 Fairgrounds Dr, Vallejo, CA 94589",cable-car,<i class = 'fa-solid fa-cable-car'></i>,cablecar,purple,38.1395033,-122.2324377
+AMC,Social,"3775 Tyler St, Riverside, CA 92503",film,<i class = 'fa-solid fa-film'></i>,film,red,33.911523096998444,-117.4609376
+Los Angeles County Museum of Art,Social,"5905 Wilshire Blvd, Los Angeles, CA 90036",palette,<i class = 'fa-solid fa-palette'></i>,palette,pink,34.06447235,-118.3599459
+The Getty Center,Social,"1200 Getty Center Dr, Los Angeles, CA 90049",building-columns,<i class = 'fa-solid fa-building-columns'></i>,building,green,34.07695125,-118.475712
+The Broad,Social,"221 S Grand Ave, Los Angeles, CA 90012",palette,<i class = 'fa-solid fa-palette'></i>,palette,pink,34.0544584,-118.2505942
+Jurupa Mountains Discovery Center,Social,"7621 Granite Hill Dr, Riverside, CA 92509",building-columns,<i class = 'fa-solid fa-building-columns'></i>,building,green,34.01460957665105,-117.4487808
+Marshalls,Store,"3635 Riverside Plaza Dr, Riverside, CA 92506",tags,<i class = 'fa-solid fa-tags'></i>,tags,darkblue,33.9554404,-117.391541
+Marshalls,Store,"2676 Canyon Springs Pkwy, Riverside, CA 92507",tags,<i class = 'fa-solid fa-tags'></i>,tags,darkblue,33.941245907548904,-117.2828588
+Marshalls,Store,"741 W 2nd St, San Bernardino, CA 92410",tags,<i class = 'fa-solid fa-tags'></i>,tags,darkblue,34.10264484,-117.2996249
+Marshalls,Store,"1635 W Lugonia Ave, Redlands, CA 92374",tags,<i class = 'fa-solid fa-tags'></i>,tags,darkblue,34.0694582,-117.2106793
+Marshalls,Store,"15022 Summit Ave, Fontana, CA 92336",tags,<i class = 'fa-solid fa-tags'></i>,tags,darkblue,34.15033061611592,-117.4700901
+T.J. Maxx,Store,"12625 Frederick St, Moreno Valley, CA 92553",tags,<i class = 'fa-solid fa-tags'></i>,tags,darkred,33.93667745,-117.2654768
+T.J. Maxx,Store,"17144 Slover Ave, Fontana, CA 92337",tags,<i class = 'fa-solid fa-tags'></i>,tags,darkred,34.063121703499604,-117.4307894
+T.J. Maxx,Store,"27651-D W San Bernardino Ave, Redlands, CA 92374",tags,<i class = 'fa-solid fa-tags'></i>,tags,darkred,34.077349,-117.1917297
+T.J. Maxx,Store,"277 E 40th St, San Bernardino, CA 92404",tags,<i class = 'fa-solid fa-tags'></i>,tags,darkred,34.1650071,-117.2702443
+T.J. Maxx,Store,"390 N McKinley St, Corona, CA 92879",tags,<i class = 'fa-solid fa-tags'></i>,tags,darkred,33.88832442237993,-117.5195265
+T.J. Maxx,Store,"2500 E Imperial Hwy, Brea, CA 92821",tags,<i class = 'fa-solid fa-tags'></i>,tags,darkred,33.9105756,-117.8706382
+Moreno Valley Mall,Store,"22500 Town Cir, Moreno Valley, CA 92553",bag-shopping,<i class = 'fa-solid fa-bag-shopping'></i>,bag,purple,33.93868495,-117.2714253
+Macy's,Store,"22400 Town Cir, Moreno Valley, CA 92553",shirt,<i class = 'fa-solid fa-shirt'></i>,shirt,red,33.938643,-117.275137
+Macy's,Store,"400 Inland Center Dr, San Bernardino, CA 92408",shirt,<i class = 'fa-solid fa-shirt'></i>,shirt,red,34.090817543777824,-117.2953372
+Macy's,Store,"3500 Tyler St, Riverside, CA 92503",shirt,<i class = 'fa-solid fa-shirt'></i>,shirt,red,33.906836,-117.457361
+Macy's,Store,"7855 Kew Ave, Rancho Cucamonga, CA 91739",shirt,<i class = 'fa-solid fa-shirt'></i>,shirt,red,34.111688058968355,-117.5309992
+Jurupa Valley/Pedley,Transit,"6001 Pedley Rd, Riverside, CA 92503",train-subway,<i class = 'fa-solid fa-train-subway'></i>,train,beige,33.978998,-117.475515
+Jurupa Valley/Pedley,Transit,"6001 Pedley Rd, Riverside, CA 92503",train-subway,<i class = 'fa-solid fa-train-subway'></i>,train,beige,33.978998,-117.475515
+Los Angeles Union Station,Transit,"800 N Alameda St, Los Angeles, CA 90012",train-subway,<i class = 'fa-solid fa-train-subway'></i>,train,beige,34.0560576,-118.2358962
+Los Angeles Union Station,Transit,"800 N Alameda St, Los Angeles, CA 90012",train-subway,<i class = 'fa-solid fa-train-subway'></i>,train,beige,34.0560576,-118.2358962
+Moreno Valley/March Field,Transit,"14160 Meridian Pkwy, Riverside, CA 92518",train-subway,<i class = 'fa-solid fa-train-subway'></i>,train,beige,33.9168075,-117.2920621
+Moreno Valley/March Field,Transit,"14160 Meridian Pkwy, Riverside, CA 92518",train-subway,<i class = 'fa-solid fa-train-subway'></i>,train,beige,33.9168075,-117.2920621
+Riverside - Downtown,Transit,"4066 Vine St, Riverside, CA 92507",train-subway,<i class = 'fa-solid fa-train-subway'></i>,train,beige,33.97618517475728,-117.3708811
+Riverside - Downtown,Transit,"4066 Vine St, Riverside, CA 92507",train-subway,<i class = 'fa-solid fa-train-subway'></i>,train,beige,33.97618517475728,-117.3708811
+Riverside - Hunter Park/UCR,Transit,"1099 Marlborough Ave, Riverside, CA 92507",train-subway,<i class = 'fa-solid fa-train-subway'></i>,train,beige,33.997536,-117.335309
+Riverside - Hunter Park/UCR,Transit,"1099 Marlborough Ave, Riverside, CA 92507",train-subway,<i class = 'fa-solid fa-train-subway'></i>,train,beige,33.997536,-117.335309
+Riverside - La Sierra,Transit,"10901 Indiana Ave, Riverside, CA 92503",train-subway,<i class = 'fa-solid fa-train-subway'></i>,train,beige,33.913288,-117.4429513
+Riverside - La Sierra,Transit,"10901 Indiana Ave, Riverside, CA 92503",train-subway,<i class = 'fa-solid fa-train-subway'></i>,train,beige,33.913288,-117.4429513
+"University of California, Riverside",Work,"900 University Ave. Riverside, CA 92521",briefcase,<i class = 'fa-solid fa-briefcase'></i>,work,darkblue,33.9642567,-117.3397858
