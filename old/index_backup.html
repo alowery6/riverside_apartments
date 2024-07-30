@@ -45,7 +45,7 @@
 
   <script>
     
-    var map = L.map("map", {center: [33.9806, -117.3755], zoom: 12});    
+    var map = L.map("map", {center: [33.9806, -117.3755], zoom: 13});    
 
     L.tileLayer(
       'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
@@ -55,7 +55,7 @@
       }
     ).addTo(map);
 
-    var geojson_df = {
+    var geo = {
       "type": "FeatureCollection",
       "features": [
         {
@@ -76,8 +76,7 @@
             "COLOR": "#00A7CF",
             "PYCOLOR": "cadetblue",
             "lat": 33.9459832,
-            "long": -118.4013208,
-            "APT_CLUST": 99
+            "long": -118.4013208
           }
         },
         {
@@ -98,8 +97,7 @@
             "COLOR": "#005D7B",
             "PYCOLOR": "cadetblue",
             "lat": 37.622452,
-            "long": -122.3839894,
-            "APT_CLUST": 99
+            "long": -122.3839894
           }
         },
         {
@@ -120,8 +118,7 @@
             "COLOR": "#D41042",
             "PYCOLOR": "cadetblue",
             "lat": 33.63740085,
-            "long": -84.42981607,
-            "APT_CLUST": 99
+            "long": -84.42981607
           }
         },
         {
@@ -142,8 +139,7 @@
             "COLOR": "#440099",
             "PYCOLOR": "cadetblue",
             "lat": 39.8410082,
-            "long": -104.7352219,
-            "APT_CLUST": 99
+            "long": -104.7352219
           }
         },
         {
@@ -164,8 +160,7 @@
             "COLOR": "#071D49",
             "PYCOLOR": "cadetblue",
             "lat": 36.0861034,
-            "long": -115.1611198,
-            "APT_CLUST": 99
+            "long": -115.1611198
           }
         },
         {
@@ -186,316 +181,7 @@
             "COLOR": "#21418B",
             "PYCOLOR": "cadetblue",
             "lat": 34.0603862,
-            "long": -117.5898177,
-            "APT_CLUST": 99
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3292978,
-              33.9830862
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "807 West",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "807 W Blaine St, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9830862,
-            "long": -117.3292978,
-            "APT_CLUST": 0
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.2616389,
-              33.9496203
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Arbor Apartments",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "22985 Climbing Rose Dr, Moreno Valley, CA 92557",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9496203,
-            "long": -117.2616389,
-            "APT_CLUST": 3
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.2883341,
-              34.045402
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Ardella at Reche Ridge",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "2270 Cahuilla St, Colton, CA 92324",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 34.045402,
-            "long": -117.2883341,
-            "APT_CLUST": 5
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.2568721,
-              33.9180831
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Ardella on Chagall",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "13933 Chagall Ct, Moreno Valley, CA 92553",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9180831,
-            "long": -117.2568721,
-            "APT_CLUST": 3
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.4044145,
-              33.9463182
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Arlington Gardens",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "4661 Arlington Ave, Riverside, CA 92504",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9463182,
-            "long": -117.4044145,
-            "APT_CLUST": 1
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.2449824,
-              33.9208406
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Asante Villas Apartments",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "23925 Bay Ave, Moreno Valley, CA 92553",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9208406,
-            "long": -117.2449824,
-            "APT_CLUST": 3
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3380504,
-              33.982253
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Berkdale Apartments",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "1234 W Blaine St, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.982253,
-            "long": -117.3380504,
-            "APT_CLUST": 0
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3393155,
-              33.9890839
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Boulder Creek",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "2442 Iowa Ave, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9890839,
-            "long": -117.3393155,
-            "APT_CLUST": 0
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.2523737,
-              34.0602822
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Cambria Park Apartments",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "25284 Park Ave, Loma Linda, CA 92354",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 34.0602822,
-            "long": -117.2523737,
-            "APT_CLUST": 5
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3456902,
-              33.955212
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Canyon Crest",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "1550 Central Ave, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.955212,
-            "long": -117.3456902,
-            "APT_CLUST": 0
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3336501,
-              33.9555705
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Canyon Crest Views Apartments",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "5253 El Cerrito Dr, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9555705,
-            "long": -117.3336501,
-            "APT_CLUST": 0
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3463894,
-              33.9580342
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Canyon Crest Village Apartments",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "5200 Chicago Ave, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9580342,
-            "long": -117.3463894,
-            "APT_CLUST": 0
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.4398853,
-              33.9097139
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Canyon Park",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "3100 Van Buren Blvd, Riverside, CA 92503",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9097139,
-            "long": -117.4398853,
-            "APT_CLUST": 1
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3112793,
-              34.0523071
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Casa Mediterrania",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "1043 Santo Antonio Dr, Colton, CA 92324",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 34.0523071,
-            "long": -117.3112793,
-            "APT_CLUST": 5
+            "long": -117.5898177
           }
         },
         {
@@ -516,8 +202,7 @@
             "COLOR": "#F49ECB",
             "PYCOLOR": "pink",
             "lat": 33.9477003,
-            "long": -117.3030833,
-            "APT_CLUST": 4
+            "long": -117.3030833
           }
         },
         {
@@ -538,52 +223,7 @@
             "COLOR": "#F49ECB",
             "PYCOLOR": "pink",
             "lat": 33.988880161677,
-            "long": -117.3715413,
-            "APT_CLUST": 2
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3062761,
-              34.0517334
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "CENTREPOINTE",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "1401 E Santo Antonio Dr, Colton, CA 92324",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 34.0517334,
-            "long": -117.3062761,
-            "APT_CLUST": 5
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3425593,
-              33.9768156
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Chancellor Arms",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "1436 7th St, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9768156,
-            "long": -117.3425593,
-            "APT_CLUST": 0
+            "long": -117.3715413
           }
         },
         {
@@ -604,404 +244,7 @@
             "COLOR": "#F49ECB",
             "PYCOLOR": "pink",
             "lat": 33.956642617894,
-            "long": -117.3923301,
-            "APT_CLUST": 1
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.303541,
-              33.944116
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Colonnade",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "5880 Fair Isle Dr, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.944116,
-            "long": -117.303541,
-            "APT_CLUST": 4
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.4268072,
-              33.9471441
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Concord Place",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "5657 Arlington Ave, Riverside, CA 92504",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9471441,
-            "long": -117.4268072,
-            "APT_CLUST": 1
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3389752,
-              33.9869737
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Concord Square Apartments",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "2700 Iowa Ave, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9869737,
-            "long": -117.3389752,
-            "APT_CLUST": 0
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.338251,
-              33.9884313
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Concord Village",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "1251 Massachusetts Ave, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9884313,
-            "long": -117.338251,
-            "APT_CLUST": 0
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.299279,
-              33.9438967
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Core at Sycamore Highlands",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "5946 Sycamore Canyon Blvd, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9438967,
-            "long": -117.299279,
-            "APT_CLUST": 4
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.314523,
-              34.0484113
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Cottonwood Ranch",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "901 E Washington St, Colton, CA 92324",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 34.0484113,
-            "long": -117.314523,
-            "APT_CLUST": 5
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3325383,
-              33.951158
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Crown Point",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "920 Via Cartago, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.951158,
-            "long": -117.3325383,
-            "APT_CLUST": 0
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.31517,
-              33.975615
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Dwell Apartment Homes",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "160 W Big Springs Rd, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.975615,
-            "long": -117.31517,
-            "APT_CLUST": 0
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.2701623,
-              33.9283927
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Elevate at Towngate",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "13400 Elsworth St, Moreno Valley, CA 92553",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9283927,
-            "long": -117.2701623,
-            "APT_CLUST": 3
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3240379,
-              33.9105747
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Estancia at Mission Grove",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "7871 Mission Grove Pky S, Riverside, CA 92508",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9105747,
-            "long": -117.3240379,
-            "APT_CLUST": 4
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3310117,
-              33.9863701
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Falcon Pointe Apartments",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "2934 Canyon Crest Dr, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9863701,
-            "long": -117.3310117,
-            "APT_CLUST": 0
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.2723934,
-              33.9341625
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Fresco",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "12640 Memorial Way, Moreno Valley, CA 92553",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9341625,
-            "long": -117.2723934,
-            "APT_CLUST": 3
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.313916,
-              34.030218
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Heights at Grand Terrace",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "22491 De Berry St SW, Grand Terrace, CA 92313",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 34.030218,
-            "long": -117.313916,
-            "APT_CLUST": 5
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3286875,
-              33.9591655
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Hidden Springs Apartments",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "5220 Pearblossom Dr, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9591655,
-            "long": -117.3286875,
-            "APT_CLUST": 0
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.2613686,
-              33.9457295
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Highland Meadows",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "12080 Pigeon Pass Rd, Moreno Valley, CA 92557",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9457295,
-            "long": -117.2613686,
-            "APT_CLUST": 3
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3397702,
-              33.9850029
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Highlander at North Campus Student Housing",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "3080 Iowa Ave, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9850029,
-            "long": -117.3397702,
-            "APT_CLUST": 0
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3284461,
-              33.9842381
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Highlander Park Apts",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "3131 Watkins Dr, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9842381,
-            "long": -117.3284461,
-            "APT_CLUST": 0
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3346513,
-              33.9830859
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Highlander Pointe Apartments",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "1055 W Blaine St, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9830859,
-            "long": -117.3346513,
-            "APT_CLUST": 0
+            "long": -117.3923301
           }
         },
         {
@@ -1022,162 +265,7 @@
             "COLOR": "#F49ECB",
             "PYCOLOR": "pink",
             "lat": 33.98206845,
-            "long": -117.3739225,
-            "APT_CLUST": 2
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.337573,
-              33.9737046
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "International Village UCR Student Housing",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "1100 Everton Pl, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9737046,
-            "long": -117.337573,
-            "APT_CLUST": 0
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.2585065,
-              33.946513
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Ironwood Villas",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "23163 Ironwood Ave, Moreno Valley, CA 92557",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.946513,
-            "long": -117.2585065,
-            "APT_CLUST": 3
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.2542289,
-              33.9426045
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "La Pacifica",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "23400 Hemlock Ave, Moreno Valley, CA 92557",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9426045,
-            "long": -117.2542289,
-            "APT_CLUST": 3
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.2079173,
-              33.8928762
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Lasselle Place",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "15700 Lasselle St, Moreno Valley, CA 92551",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.8928762,
-            "long": -117.2079173,
-            "APT_CLUST": 6
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.2088125,
-              33.9274875
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Legends at Rancho Belago",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "13292 Lasselle St, Moreno Valley, CA 92553",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9274875,
-            "long": -117.2088125,
-            "APT_CLUST": 6
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.43653,
-              33.908014
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Lincoln Village Apartment Homes",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "3000 Van Buren Boulevard, Riverside, CA 92503",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.908014,
-            "long": -117.43653,
-            "APT_CLUST": 1
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.2743409,
-              34.0498342
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Loma Linda Springs",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "11171 Oakwood Dr, Loma Linda, CA 92354",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 34.0498342,
-            "long": -117.2743409,
-            "APT_CLUST": 5
+            "long": -117.3739225
           }
         },
         {
@@ -1198,8 +286,7 @@
             "COLOR": "#F49ECB",
             "PYCOLOR": "pink",
             "lat": 33.93775445,
-            "long": -117.4060744,
-            "APT_CLUST": 1
+            "long": -117.4060744
           }
         },
         {
@@ -1220,8 +307,7 @@
             "COLOR": "#F49ECB",
             "PYCOLOR": "pink",
             "lat": 33.983441978853,
-            "long": -117.3746246,
-            "APT_CLUST": 2
+            "long": -117.3746246
           }
         },
         {
@@ -1242,250 +328,7 @@
             "COLOR": "#F49ECB",
             "PYCOLOR": "pink",
             "lat": 33.978981166408,
-            "long": -117.3654355,
-            "APT_CLUST": 4
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3654355,
-              33.9789812
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Mission Lofts",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "3050 Mission Inn Ave, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9789812,
-            "long": -117.3654355,
-            "APT_CLUST": 2
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.2560239,
-              33.9465132
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Monarch Terrace Apartments",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "23215 Ironwood Ave, Moreno Valley, CA 92557",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9465132,
-            "long": -117.2560239,
-            "APT_CLUST": 3
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.31627,
-              34.047981
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Nova Pointe Apartments",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "800 E Washington St, Colton, CA 92324",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 34.047981,
-            "long": -117.31627,
-            "APT_CLUST": 5
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3339027,
-              33.9830854
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Park Hill Apartments",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "991 Blaine St, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9830854,
-            "long": -117.3339027,
-            "APT_CLUST": 0
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.4313472,
-              33.925753
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Presidential Townhomes",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "3680 Monroe St, Riverside, CA 92504",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.925753,
-            "long": -117.4313472,
-            "APT_CLUST": 1
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.379519,
-              33.9470802
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Quail Creek Apartments",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "3131 Arlington Ave, Riverside, CA 92506",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9470802,
-            "long": -117.379519,
-            "APT_CLUST": 1
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3719107,
-              33.9879964
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Raincross Promenade",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "3250 Market St, Riverside, CA 92501",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9879964,
-            "long": -117.3719107,
-            "APT_CLUST": 2
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.220009,
-              33.917266
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Ridgeview",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "25335 Alessandro Blvd, Moreno Valley, CA 92553",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.917266,
-            "long": -117.220009,
-            "APT_CLUST": 6
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.4614784,
-              33.9053915
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "River Oaks",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "3535 Banbury Dr, Riverside, CA 92505",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9053915,
-            "long": -117.4614784,
-            "APT_CLUST": 1
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.4367552,
-              33.9216134
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Sago Palms Apartments",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "3646 Jackson St, Riverside, CA 92503",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9216134,
-            "long": -117.4367552,
-            "APT_CLUST": 1
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.2437043,
-              34.0684225
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Sierra Vista Apartments",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "10558 Mountain View Ave, Redlands, CA 92373",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 34.0684225,
-            "long": -117.2437043,
-            "APT_CLUST": 5
+            "long": -117.3654355
           }
         },
         {
@@ -1506,228 +349,7 @@
             "COLOR": "#F49ECB",
             "PYCOLOR": "pink",
             "lat": 33.9496013,
-            "long": -117.2877463,
-            "APT_CLUST": 4
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.2574093,
-              33.9427351
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Sorelle Apartments",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "12159 Calle Sombra, Moreno Valley, CA 92557",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9427351,
-            "long": -117.2574093,
-            "APT_CLUST": 3
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3323351,
-              33.990298
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Spruce Village",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "1046 Spruce St, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.990298,
-            "long": -117.3323351,
-            "APT_CLUST": 0
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.261496,
-              33.9329177
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Stella at Towngate",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "12881 Frederick St, Moreno Valley, CA 92553",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9329177,
-            "long": -117.261496,
-            "APT_CLUST": 3
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3195636,
-              33.9576167
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Stone Canyon Apartments",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "5100 Quail Run Rd, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9576167,
-            "long": -117.3195636,
-            "APT_CLUST": 0
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.335848,
-              33.9809061
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Summer Meadows",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "3429 Rustin Ave, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9809061,
-            "long": -117.335848,
-            "APT_CLUST": 0
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.243845,
-              33.9289883
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Sunnymead Apts",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "13325 Heacock St, Moreno Valley, CA 92553",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9289883,
-            "long": -117.243845,
-            "APT_CLUST": 3
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.326657,
-              33.9533531
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Sycamore Canyons",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "600 Central Ave, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9533531,
-            "long": -117.326657,
-            "APT_CLUST": 0
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.294377,
-              34.0484898
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Terrace Oak Apartment Homes",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "1925 E Washington St, Colton, CA 92324",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 34.0484898,
-            "long": -117.294377,
-            "APT_CLUST": 5
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.4181055,
-              33.9378847
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "The Aspens Riverside",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "7955 Magnolia Ave, Riverside, CA 92504",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9378847,
-            "long": -117.4181055,
-            "APT_CLUST": 1
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.2994554,
-              34.0467429
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "The District Apartment Homes",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "1316 S Meadow Ln, Colton, CA 92324",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 34.0467429,
-            "long": -117.2994554,
-            "APT_CLUST": 5
+            "long": -117.2877463
           }
         },
         {
@@ -1748,74 +370,7 @@
             "COLOR": "#F49ECB",
             "PYCOLOR": "pink",
             "lat": 33.91774523913,
-            "long": -117.4352429,
-            "APT_CLUST": 1
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3153357,
-              34.0392111
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "The Highlands at Grand Terrace",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "11750 Mount Vernon Ave, Grand Terrace, CA 92313",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 34.0392111,
-            "long": -117.3153357,
-            "APT_CLUST": 5
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3208743,
-              33.9597005
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "The Hills at Quail Run Apartment Homes",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "5059 Quail Run Rd, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9597005,
-            "long": -117.3208743,
-            "APT_CLUST": 0
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.4162693,
-              33.943419
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "The James Apartments",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "7600 Ambergate Pl, Riverside, CA 92504",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.943419,
-            "long": -117.4162693,
-            "APT_CLUST": 1
+            "long": -117.4352429
           }
         },
         {
@@ -1836,250 +391,7 @@
             "COLOR": "#F49ECB",
             "PYCOLOR": "pink",
             "lat": 33.987508006711,
-            "long": -117.343974,
-            "APT_CLUST": 0
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.4622914,
-              33.9046894
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "The Newport",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "3516 Banbury Dr, Riverside, CA 92505",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9046894,
-            "long": -117.4622914,
-            "APT_CLUST": 1
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.176091,
-              33.933293
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "The Overlook at Rancho Belago",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "12963 Moreno Beach Dr, Moreno Valley, CA 92555",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.933293,
-            "long": -117.176091,
-            "APT_CLUST": 6
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3369306,
-              33.9839605
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "The Timbers",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "1175 W Blaine St, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9839605,
-            "long": -117.3369306,
-            "APT_CLUST": 0
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3203501,
-              33.9585087
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Trails at Canyon Crest",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "5377 Quail Run Rd, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9585087,
-            "long": -117.3203501,
-            "APT_CLUST": 0
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.300554,
-              34.048495
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Trails at Grand Terrace",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "1699 E Washington St, Colton, CA 92324",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 34.048495,
-            "long": -117.300554,
-            "APT_CLUST": 5
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3301851,
-              33.9841457
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "University Crest Apts",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "3170 Canyon Crest Dr, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9841457,
-            "long": -117.3301851,
-            "APT_CLUST": 0
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3399868,
-              33.9739366
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "University Riverside Gardens",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "3996 Iowa Ave, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9739366,
-            "long": -117.3399868,
-            "APT_CLUST": 0
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.316682,
-              33.975763
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "University Village Apartments",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "257 W Big Springs Rd, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.975763,
-            "long": -117.316682,
-            "APT_CLUST": 0
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.339867,
-              33.9697967
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "University Village Towers",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "3500 Iowa Ave, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9697967,
-            "long": -117.339867,
-            "APT_CLUST": 0
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.4500673,
-              33.9441087
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Veranda Riverside",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "6195 Pegasus Dr, Riverside, CA 92503",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9441087,
-            "long": -117.4500673,
-            "APT_CLUST": 1
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.208855,
-              33.911813
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Villa Annette Apartments",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "14400 Lasselle, Moreno Valley, CA 92553",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.911813,
-            "long": -117.208855,
-            "APT_CLUST": 6
+            "long": -117.343974
           }
         },
         {
@@ -2100,184 +412,7 @@
             "COLOR": "#F49ECB",
             "PYCOLOR": "pink",
             "lat": 33.930255385947,
-            "long": -117.2832997,
-            "APT_CLUST": 3
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.4184945,
-              33.9348486
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Village West Apartments",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "8040 Magnolia Ave, Riverside, CA 92504",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9348486,
-            "long": -117.4184945,
-            "APT_CLUST": 1
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3568104,
-              34.0044204
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Villas at Columbia",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "3573 Columbia Ave, Riverside, CA 92501",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 34.0044204,
-            "long": -117.3568104,
-            "APT_CLUST": 2
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.277516,
-              33.9297965
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Villas at Towngate",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "13120 Day St, Moreno Valley, CA 92553",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9297965,
-            "long": -117.277516,
-            "APT_CLUST": 3
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3016323,
-              33.9453756
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Vista Imperio",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "5880 Lochmoor Dr, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9453756,
-            "long": -117.3016323,
-            "APT_CLUST": 4
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.2859254,
-              33.946664
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Vista Springs Apartments",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "21550 Box Springs Rd, Moreno Valley, CA 92557",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.946664,
-            "long": -117.2859254,
-            "APT_CLUST": 4
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3109402,
-              34.0687022
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Windcrest Apartments",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "933 Fairway Dr, Colton, CA 92324",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 34.0687022,
-            "long": -117.3109402,
-            "APT_CLUST": 5
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.3012899,
-              33.9435786
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "Windemere at Sycamore Highlands",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "5925 Sycamore Canyon Blvd, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.9435786,
-            "long": -117.3012899,
-            "APT_CLUST": 4
-          }
-        },
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -117.335631,
-              33.979272
-            ]
-          },
-          "type": "Feature",
-          "properties": {
-            "LONG_NAME": "WINDWOOD",
-            "LIFESTYLE_CAT": "Apartment",
-            "ADDR": "1120 W Linden St, Riverside, CA 92507",
-            "ICON": "house-chimney",
-            "ICON_STR": "house",
-            "COLOR": "#F49ECB",
-            "PYCOLOR": "pink",
-            "lat": 33.979272,
-            "long": -117.335631,
-            "APT_CLUST": 0
+            "long": -117.2832997
           }
         },
         {
@@ -2298,8 +433,7 @@
             "COLOR": "#000000",
             "PYCOLOR": "black",
             "lat": 33.9098266,
-            "long": -117.4569875,
-            "APT_CLUST": 99
+            "long": -117.4569875
           }
         },
         {
@@ -2320,8 +454,7 @@
             "COLOR": "#000000",
             "PYCOLOR": "black",
             "lat": 33.88913365,
-            "long": -117.3273057,
-            "APT_CLUST": 99
+            "long": -117.3273057
           }
         },
         {
@@ -2342,8 +475,7 @@
             "COLOR": "#000000",
             "PYCOLOR": "black",
             "lat": 34.11202649,
-            "long": -117.5321321,
-            "APT_CLUST": 99
+            "long": -117.5321321
           }
         },
         {
@@ -2364,8 +496,7 @@
             "COLOR": "#000000",
             "PYCOLOR": "black",
             "lat": 33.9383256,
-            "long": -117.1876774,
-            "APT_CLUST": 99
+            "long": -117.1876774
           }
         },
         {
@@ -2386,8 +517,7 @@
             "COLOR": "#000000",
             "PYCOLOR": "black",
             "lat": 34.07311115,
-            "long": -117.2028114,
-            "APT_CLUST": 99
+            "long": -117.2028114
           }
         },
         {
@@ -2408,8 +538,7 @@
             "COLOR": "#000000",
             "PYCOLOR": "black",
             "lat": 33.90629485,
-            "long": -117.4598545,
-            "APT_CLUST": 99
+            "long": -117.4598545
           }
         },
         {
@@ -2430,8 +559,7 @@
             "COLOR": "#000000",
             "PYCOLOR": "black",
             "lat": 34.149768765766,
-            "long": -117.4726277,
-            "APT_CLUST": 99
+            "long": -117.4726277
           }
         },
         {
@@ -2452,8 +580,7 @@
             "COLOR": "#000000",
             "PYCOLOR": "black",
             "lat": 33.897682071638,
-            "long": -117.5527088,
-            "APT_CLUST": 99
+            "long": -117.5527088
           }
         },
         {
@@ -2474,8 +601,7 @@
             "COLOR": "#000000",
             "PYCOLOR": "black",
             "lat": 33.97836205,
-            "long": -117.5507487,
-            "APT_CLUST": 99
+            "long": -117.5507487
           }
         },
         {
@@ -2496,8 +622,7 @@
             "COLOR": "#F47D39",
             "PYCOLOR": "orange",
             "lat": 33.955083,
-            "long": -117.3918882,
-            "APT_CLUST": 99
+            "long": -117.3918882
           }
         },
         {
@@ -2518,8 +643,7 @@
             "COLOR": "#F47D39",
             "PYCOLOR": "orange",
             "lat": 34.073737553075,
-            "long": -117.3704167,
-            "APT_CLUST": 99
+            "long": -117.3704167
           }
         },
         {
@@ -2540,8 +664,7 @@
             "COLOR": "#F47D39",
             "PYCOLOR": "orange",
             "lat": 33.8022378,
-            "long": -117.2305836,
-            "APT_CLUST": 99
+            "long": -117.2305836
           }
         },
         {
@@ -2562,8 +685,7 @@
             "COLOR": "#F47D39",
             "PYCOLOR": "orange",
             "lat": 33.6899308,
-            "long": -117.337938,
-            "APT_CLUST": 99
+            "long": -117.337938
           }
         },
         {
@@ -2584,8 +706,7 @@
             "COLOR": "#F47D39",
             "PYCOLOR": "orange",
             "lat": 33.684127102041,
-            "long": -117.175456,
-            "APT_CLUST": 99
+            "long": -117.175456
           }
         },
         {
@@ -2606,8 +727,7 @@
             "COLOR": "#A1CF5F",
             "PYCOLOR": "lightgreen",
             "lat": 33.913157960255,
-            "long": -117.4593866,
-            "APT_CLUST": 99
+            "long": -117.4593866
           }
         },
         {
@@ -2628,8 +748,7 @@
             "COLOR": "#A1CF5F",
             "PYCOLOR": "lightgreen",
             "lat": 34.015422,
-            "long": -117.3392939,
-            "APT_CLUST": 99
+            "long": -117.3392939
           }
         },
         {
@@ -2650,8 +769,7 @@
             "COLOR": "#A1CF5F",
             "PYCOLOR": "lightgreen",
             "lat": 33.916229251206,
-            "long": -117.2262223,
-            "APT_CLUST": 99
+            "long": -117.2262223
           }
         },
         {
@@ -2672,8 +790,7 @@
             "COLOR": "#A1CF5F",
             "PYCOLOR": "lightgreen",
             "lat": 33.916741266771,
-            "long": -117.2831435,
-            "APT_CLUST": 99
+            "long": -117.2831435
           }
         },
         {
@@ -2694,8 +811,7 @@
             "COLOR": "#A1CF5F",
             "PYCOLOR": "lightgreen",
             "lat": 33.98733835,
-            "long": -117.3728011,
-            "APT_CLUST": 99
+            "long": -117.3728011
           }
         },
         {
@@ -2716,8 +832,7 @@
             "COLOR": "#A1CF5F",
             "PYCOLOR": "lightgreen",
             "lat": 34.011433596836,
-            "long": -117.4986195,
-            "APT_CLUST": 99
+            "long": -117.4986195
           }
         },
         {
@@ -2738,8 +853,7 @@
             "COLOR": "#1A75CF",
             "PYCOLOR": "blue",
             "lat": 33.940218061783,
-            "long": -117.2881742,
-            "APT_CLUST": 99
+            "long": -117.2881742
           }
         },
         {
@@ -2760,8 +874,7 @@
             "COLOR": "#1A75CF",
             "PYCOLOR": "blue",
             "lat": 34.0570808,
-            "long": -117.3093166,
-            "APT_CLUST": 99
+            "long": -117.3093166
           }
         },
         {
@@ -2782,8 +895,7 @@
             "COLOR": "#1A75CF",
             "PYCOLOR": "blue",
             "lat": 34.0763996,
-            "long": -117.37327,
-            "APT_CLUST": 99
+            "long": -117.37327
           }
         },
         {
@@ -2804,8 +916,7 @@
             "COLOR": "#1A75CF",
             "PYCOLOR": "blue",
             "lat": 33.9367789,
-            "long": -117.454972,
-            "APT_CLUST": 99
+            "long": -117.454972
           }
         },
         {
@@ -2826,8 +937,7 @@
             "COLOR": "#1A75CF",
             "PYCOLOR": "blue",
             "lat": 33.9357718,
-            "long": -117.1819294,
-            "APT_CLUST": 99
+            "long": -117.1819294
           }
         },
         {
@@ -2848,8 +958,7 @@
             "COLOR": "#1A75CF",
             "PYCOLOR": "blue",
             "lat": 34.0650396,
-            "long": -117.222756,
-            "APT_CLUST": 99
+            "long": -117.222756
           }
         },
         {
@@ -2870,8 +979,7 @@
             "COLOR": "#1A75CF",
             "PYCOLOR": "blue",
             "lat": 34.1057132,
-            "long": -117.4281524,
-            "APT_CLUST": 99
+            "long": -117.4281524
           }
         },
         {
@@ -2892,8 +1000,7 @@
             "COLOR": "#1A75CF",
             "PYCOLOR": "blue",
             "lat": 33.8910578,
-            "long": -117.5178999,
-            "APT_CLUST": 99
+            "long": -117.5178999
           }
         },
         {
@@ -2914,8 +1021,7 @@
             "COLOR": "#1A75CF",
             "PYCOLOR": "blue",
             "lat": 34.13762725,
-            "long": -117.1948893,
-            "APT_CLUST": 99
+            "long": -117.1948893
           }
         },
         {
@@ -2936,8 +1042,7 @@
             "COLOR": "#1A75CF",
             "PYCOLOR": "blue",
             "lat": 33.80617145,
-            "long": -117.2295415,
-            "APT_CLUST": 99
+            "long": -117.2295415
           }
         },
         {
@@ -2958,8 +1063,7 @@
             "COLOR": "#1A75CF",
             "PYCOLOR": "blue",
             "lat": 34.0029525,
-            "long": -117.3326293,
-            "APT_CLUST": 99
+            "long": -117.3326293
           }
         },
         {
@@ -2980,8 +1084,7 @@
             "COLOR": "#1A75CF",
             "PYCOLOR": "blue",
             "lat": 33.9743423,
-            "long": -117.4767376,
-            "APT_CLUST": 99
+            "long": -117.4767376
           }
         },
         {
@@ -3002,8 +1105,7 @@
             "COLOR": "#1A75CF",
             "PYCOLOR": "blue",
             "lat": 34.1653946,
-            "long": -117.3361701,
-            "APT_CLUST": 99
+            "long": -117.3361701
           }
         },
         {
@@ -3024,8 +1126,7 @@
             "COLOR": "#1A75CF",
             "PYCOLOR": "blue",
             "lat": 33.8459858,
-            "long": -117.5413058,
-            "APT_CLUST": 99
+            "long": -117.5413058
           }
         },
         {
@@ -3046,8 +1147,7 @@
             "COLOR": "#1A75CF",
             "PYCOLOR": "blue",
             "lat": 34.10341815,
-            "long": -117.5315637,
-            "APT_CLUST": 99
+            "long": -117.5315637
           }
         },
         {
@@ -3068,8 +1168,7 @@
             "COLOR": "#BE0D2C",
             "PYCOLOR": "darkred",
             "lat": 33.9571723,
-            "long": -117.3304264,
-            "APT_CLUST": 99
+            "long": -117.3304264
           }
         },
         {
@@ -3090,8 +1189,7 @@
             "COLOR": "#BE0D2C",
             "PYCOLOR": "darkred",
             "lat": 33.9592269,
-            "long": -117.3943342,
-            "APT_CLUST": 99
+            "long": -117.3943342
           }
         },
         {
@@ -3112,8 +1210,7 @@
             "COLOR": "#BE0D2C",
             "PYCOLOR": "darkred",
             "lat": 33.8954112,
-            "long": -117.4715996,
-            "APT_CLUST": 99
+            "long": -117.4715996
           }
         },
         {
@@ -3134,8 +1231,7 @@
             "COLOR": "#BE0D2C",
             "PYCOLOR": "darkred",
             "lat": 34.1376277,
-            "long": -117.4507942,
-            "APT_CLUST": 99
+            "long": -117.4507942
           }
         },
         {
@@ -3156,8 +1252,7 @@
             "COLOR": "#BE0D2C",
             "PYCOLOR": "darkred",
             "lat": 33.97489985,
-            "long": -117.5589491,
-            "APT_CLUST": 99
+            "long": -117.5589491
           }
         },
         {
@@ -3178,8 +1273,7 @@
             "COLOR": "#BE0D2C",
             "PYCOLOR": "darkred",
             "lat": 34.1696858,
-            "long": -117.334344,
-            "APT_CLUST": 99
+            "long": -117.334344
           }
         },
         {
@@ -3200,8 +1294,7 @@
             "COLOR": "#BE0D2C",
             "PYCOLOR": "darkred",
             "lat": 34.13490645,
-            "long": -117.539365,
-            "APT_CLUST": 99
+            "long": -117.539365
           }
         },
         {
@@ -3222,8 +1315,7 @@
             "COLOR": "#BE0D2C",
             "PYCOLOR": "darkred",
             "lat": 34.1199443,
-            "long": -117.5571712,
-            "APT_CLUST": 99
+            "long": -117.5571712
           }
         },
         {
@@ -3244,8 +1336,7 @@
             "COLOR": "#BE0D2C",
             "PYCOLOR": "darkred",
             "lat": 34.1236472,
-            "long": -117.575439,
-            "APT_CLUST": 99
+            "long": -117.575439
           }
         },
         {
@@ -3266,8 +1357,7 @@
             "COLOR": "#BE0D2C",
             "PYCOLOR": "darkred",
             "lat": 33.87157635,
-            "long": -117.6218344,
-            "APT_CLUST": 99
+            "long": -117.6218344
           }
         },
         {
@@ -3288,8 +1378,7 @@
             "COLOR": "#52DA1C",
             "PYCOLOR": "lightblue",
             "lat": 33.9380447,
-            "long": -117.1896532,
-            "APT_CLUST": 99
+            "long": -117.1896532
           }
         },
         {
@@ -3310,8 +1399,7 @@
             "COLOR": "#52DA1C",
             "PYCOLOR": "lightblue",
             "lat": 33.940469572063,
-            "long": -117.2813635,
-            "APT_CLUST": 99
+            "long": -117.2813635
           }
         },
         {
@@ -3332,8 +1420,7 @@
             "COLOR": "#52DA1C",
             "PYCOLOR": "lightblue",
             "lat": 33.9098993,
-            "long": -117.436339,
-            "APT_CLUST": 99
+            "long": -117.436339
           }
         },
         {
@@ -3354,8 +1441,7 @@
             "COLOR": "#52DA1C",
             "PYCOLOR": "lightblue",
             "lat": 33.983904341312,
-            "long": -117.3654648,
-            "APT_CLUST": 99
+            "long": -117.3654648
           }
         },
         {
@@ -3376,8 +1462,7 @@
             "COLOR": "#52DA1C",
             "PYCOLOR": "lightblue",
             "lat": 33.936965402566,
-            "long": -117.4059104,
-            "APT_CLUST": 99
+            "long": -117.4059104
           }
         },
         {
@@ -3398,8 +1483,7 @@
             "COLOR": "#FF1035",
             "PYCOLOR": "red",
             "lat": 33.9360407,
-            "long": -117.2757429,
-            "APT_CLUST": 99
+            "long": -117.2757429
           }
         },
         {
@@ -3420,8 +1504,7 @@
             "COLOR": "#FF1035",
             "PYCOLOR": "red",
             "lat": 34.069058,
-            "long": -117.266828,
-            "APT_CLUST": 99
+            "long": -117.266828
           }
         },
         {
@@ -3442,8 +1525,7 @@
             "COLOR": "#FF1035",
             "PYCOLOR": "red",
             "lat": 34.1373663,
-            "long": -117.443376,
-            "APT_CLUST": 99
+            "long": -117.443376
           }
         },
         {
@@ -3464,8 +1546,7 @@
             "COLOR": "#FF1035",
             "PYCOLOR": "red",
             "lat": 33.88956816106,
-            "long": -117.5205974,
-            "APT_CLUST": 99
+            "long": -117.5205974
           }
         },
         {
@@ -3486,8 +1567,7 @@
             "COLOR": "#000000",
             "PYCOLOR": "black",
             "lat": 33.9490511,
-            "long": -84.51460164,
-            "APT_CLUST": 99
+            "long": -84.51460164
           }
         },
         {
@@ -3508,8 +1588,7 @@
             "COLOR": "#ffc629",
             "PYCOLOR": "black",
             "lat": 33.9404888,
-            "long": -84.5202865,
-            "APT_CLUST": 99
+            "long": -84.5202865
           }
         },
         {
@@ -3530,8 +1609,7 @@
             "COLOR": "#221C5C",
             "PYCOLOR": "darkpurple",
             "lat": 34.04732935,
-            "long": -118.264523,
-            "APT_CLUST": 99
+            "long": -118.264523
           }
         },
         {
@@ -3552,8 +1630,7 @@
             "COLOR": "#5.09E+36",
             "PYCOLOR": "darkpurple",
             "lat": 37.7861752,
-            "long": -122.4086673,
-            "APT_CLUST": 99
+            "long": -122.4086673
           }
         },
         {
@@ -3574,8 +1651,7 @@
             "COLOR": "#EB296A",
             "PYCOLOR": "darkpurple",
             "lat": 32.7113383,
-            "long": -117.1637798,
-            "APT_CLUST": 99
+            "long": -117.1637798
           }
         },
         {
@@ -3596,8 +1672,7 @@
             "COLOR": "#A12342",
             "PYCOLOR": "darkpurple",
             "lat": 32.758922537909,
-            "long": -117.1761108,
-            "APT_CLUST": 99
+            "long": -117.1761108
           }
         },
         {
@@ -3618,8 +1693,7 @@
             "COLOR": "#C6003D",
             "PYCOLOR": "darkpurple",
             "lat": 33.986292,
-            "long": -117.373069,
-            "APT_CLUST": 99
+            "long": -117.373069
           }
         },
         {
@@ -3640,8 +1714,7 @@
             "COLOR": "#46444E",
             "PYCOLOR": "gray",
             "lat": 34.041633306542,
-            "long": -84.6012557,
-            "APT_CLUST": 99
+            "long": -84.6012557
           }
         },
         {
@@ -3662,8 +1735,7 @@
             "COLOR": "#93D500",
             "PYCOLOR": "green",
             "lat": 33.77874945,
-            "long": -84.318088,
-            "APT_CLUST": 99
+            "long": -84.318088
           }
         },
         {
@@ -3684,8 +1756,7 @@
             "COLOR": "#1D2BED",
             "PYCOLOR": "lightblue",
             "lat": 33.76326745,
-            "long": -84.39511727,
-            "APT_CLUST": 99
+            "long": -84.39511727
           }
         },
         {
@@ -3706,8 +1777,7 @@
             "COLOR": "#FF6C0C",
             "PYCOLOR": "orange",
             "lat": 34.135903,
-            "long": -118.1242746,
-            "APT_CLUST": 99
+            "long": -118.1242746
           }
         },
         {
@@ -3728,8 +1798,7 @@
             "COLOR": "#D96932",
             "PYCOLOR": "orange",
             "lat": 33.9207353,
-            "long": -84.33492949,
-            "APT_CLUST": 99
+            "long": -84.33492949
           }
         },
         {
@@ -3750,8 +1819,7 @@
             "COLOR": "#007DA5",
             "PYCOLOR": "pink",
             "lat": 34.049576712121,
-            "long": -84.58426231,
-            "APT_CLUST": 99
+            "long": -84.58426231
           }
         },
         {
@@ -3772,8 +1840,7 @@
             "COLOR": "#F18C20",
             "PYCOLOR": "pink",
             "lat": 34.050982,
-            "long": -84.5948618,
-            "APT_CLUST": 99
+            "long": -84.5948618
           }
         },
         {
@@ -3794,8 +1861,7 @@
             "COLOR": "#4E4845",
             "PYCOLOR": "pink",
             "lat": 33.955598,
-            "long": -84.499664,
-            "APT_CLUST": 99
+            "long": -84.499664
           }
         },
         {
@@ -3816,8 +1882,7 @@
             "COLOR": "#FF037D",
             "PYCOLOR": "purple",
             "lat": 33.78483865,
-            "long": -84.38459952,
-            "APT_CLUST": 99
+            "long": -84.38459952
           }
         },
         {
@@ -3838,8 +1903,7 @@
             "COLOR": "#E0252D",
             "PYCOLOR": "purple",
             "lat": 33.9235375,
-            "long": -84.3401973,
-            "APT_CLUST": 99
+            "long": -84.3401973
           }
         },
         {
@@ -3860,8 +1924,7 @@
             "COLOR": "#0AA1DB",
             "PYCOLOR": "purple",
             "lat": 33.7670764,
-            "long": -84.55107182,
-            "APT_CLUST": 99
+            "long": -84.55107182
           }
         },
         {
@@ -3882,8 +1945,7 @@
             "COLOR": "#E0252D",
             "PYCOLOR": "purple",
             "lat": 33.9930013,
-            "long": -84.5971416,
-            "APT_CLUST": 99
+            "long": -84.5971416
           }
         },
         {
@@ -3904,8 +1966,7 @@
             "COLOR": "#93D500",
             "PYCOLOR": "green",
             "lat": 32.73598735,
-            "long": -117.1506542,
-            "APT_CLUST": 99
+            "long": -117.1506542
           }
         },
         {
@@ -3926,8 +1987,7 @@
             "COLOR": "#93D500",
             "PYCOLOR": "green",
             "lat": 34.147359675841,
-            "long": -118.2844025,
-            "APT_CLUST": 99
+            "long": -118.2844025
           }
         },
         {
@@ -3948,8 +2008,7 @@
             "COLOR": "#93D500",
             "PYCOLOR": "green",
             "lat": 37.7354329,
-            "long": -122.507235,
-            "APT_CLUST": 99
+            "long": -122.507235
           }
         },
         {
@@ -3970,8 +2029,7 @@
             "COLOR": "#1D2BED",
             "PYCOLOR": "lightblue",
             "lat": 33.763203876405,
-            "long": -118.1966743,
-            "APT_CLUST": 99
+            "long": -118.1966743
           }
         },
         {
@@ -3992,8 +2050,7 @@
             "COLOR": "#EC42AF",
             "PYCOLOR": "pink",
             "lat": 33.981586624946,
-            "long": -117.370616,
-            "APT_CLUST": 99
+            "long": -117.370616
           }
         },
         {
@@ -4014,8 +2071,7 @@
             "COLOR": "#EC42AF",
             "PYCOLOR": "pink",
             "lat": 37.7607664,
-            "long": -122.435607,
-            "APT_CLUST": 99
+            "long": -122.435607
           }
         },
         {
@@ -4036,8 +2092,7 @@
             "COLOR": "#253B56",
             "PYCOLOR": "purple",
             "lat": 33.8082809,
-            "long": -117.9265806,
-            "APT_CLUST": 99
+            "long": -117.9265806
           }
         },
         {
@@ -4058,8 +2113,7 @@
             "COLOR": "#BF7A8F",
             "PYCOLOR": "purple",
             "lat": 34.0833871,
-            "long": -118.385144,
-            "APT_CLUST": 99
+            "long": -118.385144
           }
         },
         {
@@ -4080,8 +2134,7 @@
             "COLOR": "#FE392C",
             "PYCOLOR": "purple",
             "lat": 37.76421495,
-            "long": -122.4221044,
-            "APT_CLUST": 99
+            "long": -122.4221044
           }
         },
         {
@@ -4102,8 +2155,7 @@
             "COLOR": "#0AA1DB",
             "PYCOLOR": "purple",
             "lat": 34.4250568,
-            "long": -118.5970454,
-            "APT_CLUST": 99
+            "long": -118.5970454
           }
         },
         {
@@ -4124,8 +2176,7 @@
             "COLOR": "#BF7A8F",
             "PYCOLOR": "purple",
             "lat": 34.08883255102,
-            "long": -118.2765586,
-            "APT_CLUST": 99
+            "long": -118.2765586
           }
         },
         {
@@ -4146,8 +2197,7 @@
             "COLOR": "#753A7C",
             "PYCOLOR": "purple",
             "lat": 33.8446407,
-            "long": -118.0000058,
-            "APT_CLUST": 99
+            "long": -118.0000058
           }
         },
         {
@@ -4168,8 +2218,7 @@
             "COLOR": "#0AA1DB",
             "PYCOLOR": "purple",
             "lat": 38.1395033,
-            "long": -122.2324377,
-            "APT_CLUST": 99
+            "long": -122.2324377
           }
         },
         {
@@ -4190,8 +2239,7 @@
             "COLOR": "#CE0E2D",
             "PYCOLOR": "red",
             "lat": 33.911523096998,
-            "long": -117.4609376,
-            "APT_CLUST": 99
+            "long": -117.4609376
           }
         },
         {
@@ -4212,8 +2260,7 @@
             "COLOR": "#EC42AF",
             "PYCOLOR": "pink",
             "lat": 34.06447235,
-            "long": -118.3599459,
-            "APT_CLUST": 99
+            "long": -118.3599459
           }
         },
         {
@@ -4234,8 +2281,7 @@
             "COLOR": "#93D500",
             "PYCOLOR": "green",
             "lat": 34.07695125,
-            "long": -118.475712,
-            "APT_CLUST": 99
+            "long": -118.475712
           }
         },
         {
@@ -4256,8 +2302,7 @@
             "COLOR": "#EC42AF",
             "PYCOLOR": "pink",
             "lat": 34.0544584,
-            "long": -118.2505942,
-            "APT_CLUST": 99
+            "long": -118.2505942
           }
         },
         {
@@ -4278,8 +2323,7 @@
             "COLOR": "#93D500",
             "PYCOLOR": "green",
             "lat": 34.014609576651,
-            "long": -117.4487808,
-            "APT_CLUST": 99
+            "long": -117.4487808
           }
         },
         {
@@ -4300,8 +2344,7 @@
             "COLOR": "#0024CC",
             "PYCOLOR": "darkblue",
             "lat": 33.9554404,
-            "long": -117.391541,
-            "APT_CLUST": 99
+            "long": -117.391541
           }
         },
         {
@@ -4322,8 +2365,7 @@
             "COLOR": "#0024CC",
             "PYCOLOR": "darkblue",
             "lat": 33.941245907549,
-            "long": -117.2828588,
-            "APT_CLUST": 99
+            "long": -117.2828588
           }
         },
         {
@@ -4344,8 +2386,7 @@
             "COLOR": "#0024CC",
             "PYCOLOR": "darkblue",
             "lat": 34.10264484,
-            "long": -117.2996249,
-            "APT_CLUST": 99
+            "long": -117.2996249
           }
         },
         {
@@ -4366,8 +2407,7 @@
             "COLOR": "#0024CC",
             "PYCOLOR": "darkblue",
             "lat": 34.0694582,
-            "long": -117.2106793,
-            "APT_CLUST": 99
+            "long": -117.2106793
           }
         },
         {
@@ -4388,8 +2428,7 @@
             "COLOR": "#0024CC",
             "PYCOLOR": "darkblue",
             "lat": 34.150330616116,
-            "long": -117.4700901,
-            "APT_CLUST": 99
+            "long": -117.4700901
           }
         },
         {
@@ -4410,8 +2449,7 @@
             "COLOR": "#CF0A2C",
             "PYCOLOR": "darkred",
             "lat": 33.93667745,
-            "long": -117.2654768,
-            "APT_CLUST": 99
+            "long": -117.2654768
           }
         },
         {
@@ -4432,8 +2470,7 @@
             "COLOR": "#CF0A2C",
             "PYCOLOR": "darkred",
             "lat": 34.0631217035,
-            "long": -117.4307894,
-            "APT_CLUST": 99
+            "long": -117.4307894
           }
         },
         {
@@ -4454,8 +2491,7 @@
             "COLOR": "#CF0A2C",
             "PYCOLOR": "darkred",
             "lat": 34.077349,
-            "long": -117.1917297,
-            "APT_CLUST": 99
+            "long": -117.1917297
           }
         },
         {
@@ -4476,8 +2512,7 @@
             "COLOR": "#CF0A2C",
             "PYCOLOR": "darkred",
             "lat": 34.1650071,
-            "long": -117.2702443,
-            "APT_CLUST": 99
+            "long": -117.2702443
           }
         },
         {
@@ -4498,8 +2533,7 @@
             "COLOR": "#CF0A2C",
             "PYCOLOR": "darkred",
             "lat": 33.88832442238,
-            "long": -117.5195265,
-            "APT_CLUST": 99
+            "long": -117.5195265
           }
         },
         {
@@ -4520,8 +2554,7 @@
             "COLOR": "#CF0A2C",
             "PYCOLOR": "darkred",
             "lat": 33.9105756,
-            "long": -117.8706382,
-            "APT_CLUST": 99
+            "long": -117.8706382
           }
         },
         {
@@ -4542,8 +2575,7 @@
             "COLOR": "#E0252D",
             "PYCOLOR": "purple",
             "lat": 33.93868495,
-            "long": -117.2714253,
-            "APT_CLUST": 99
+            "long": -117.2714253
           }
         },
         {
@@ -4564,8 +2596,7 @@
             "COLOR": "#E51B24",
             "PYCOLOR": "red",
             "lat": 33.938643,
-            "long": -117.275137,
-            "APT_CLUST": 99
+            "long": -117.275137
           }
         },
         {
@@ -4586,8 +2617,7 @@
             "COLOR": "#E51B24",
             "PYCOLOR": "red",
             "lat": 34.090817543778,
-            "long": -117.2953372,
-            "APT_CLUST": 99
+            "long": -117.2953372
           }
         },
         {
@@ -4608,8 +2638,7 @@
             "COLOR": "#E51B24",
             "PYCOLOR": "red",
             "lat": 33.906836,
-            "long": -117.457361,
-            "APT_CLUST": 99
+            "long": -117.457361
           }
         },
         {
@@ -4630,8 +2659,7 @@
             "COLOR": "#E51B24",
             "PYCOLOR": "red",
             "lat": 34.111688058968,
-            "long": -117.5309992,
-            "APT_CLUST": 99
+            "long": -117.5309992
           }
         },
         {
@@ -4652,8 +2680,7 @@
             "COLOR": "#0671BA",
             "PYCOLOR": "beige",
             "lat": 33.978998,
-            "long": -117.475515,
-            "APT_CLUST": 99
+            "long": -117.475515
           }
         },
         {
@@ -4674,8 +2701,7 @@
             "COLOR": "#0671BA",
             "PYCOLOR": "beige",
             "lat": 33.978998,
-            "long": -117.475515,
-            "APT_CLUST": 99
+            "long": -117.475515
           }
         },
         {
@@ -4696,8 +2722,7 @@
             "COLOR": "#A51D35",
             "PYCOLOR": "beige",
             "lat": 34.0560576,
-            "long": -118.2358962,
-            "APT_CLUST": 99
+            "long": -118.2358962
           }
         },
         {
@@ -4718,8 +2743,7 @@
             "COLOR": "#A51D35",
             "PYCOLOR": "beige",
             "lat": 34.0560576,
-            "long": -118.2358962,
-            "APT_CLUST": 99
+            "long": -118.2358962
           }
         },
         {
@@ -4740,8 +2764,7 @@
             "COLOR": "#0671BA",
             "PYCOLOR": "beige",
             "lat": 33.9168075,
-            "long": -117.2920621,
-            "APT_CLUST": 99
+            "long": -117.2920621
           }
         },
         {
@@ -4762,8 +2785,7 @@
             "COLOR": "#0671BA",
             "PYCOLOR": "beige",
             "lat": 33.9168075,
-            "long": -117.2920621,
-            "APT_CLUST": 99
+            "long": -117.2920621
           }
         },
         {
@@ -4784,8 +2806,7 @@
             "COLOR": "#0671BA",
             "PYCOLOR": "beige",
             "lat": 33.976185174757,
-            "long": -117.3708811,
-            "APT_CLUST": 99
+            "long": -117.3708811
           }
         },
         {
@@ -4806,8 +2827,7 @@
             "COLOR": "#0671BA",
             "PYCOLOR": "beige",
             "lat": 33.976185174757,
-            "long": -117.3708811,
-            "APT_CLUST": 99
+            "long": -117.3708811
           }
         },
         {
@@ -4828,8 +2848,7 @@
             "COLOR": "#0671BA",
             "PYCOLOR": "beige",
             "lat": 33.997536,
-            "long": -117.335309,
-            "APT_CLUST": 99
+            "long": -117.335309
           }
         },
         {
@@ -4850,8 +2869,7 @@
             "COLOR": "#0671BA",
             "PYCOLOR": "beige",
             "lat": 33.997536,
-            "long": -117.335309,
-            "APT_CLUST": 99
+            "long": -117.335309
           }
         },
         {
@@ -4872,8 +2890,7 @@
             "COLOR": "#0671BA",
             "PYCOLOR": "beige",
             "lat": 33.913288,
-            "long": -117.4429513,
-            "APT_CLUST": 99
+            "long": -117.4429513
           }
         },
         {
@@ -4894,8 +2911,7 @@
             "COLOR": "#0671BA",
             "PYCOLOR": "beige",
             "lat": 33.913288,
-            "long": -117.4429513,
-            "APT_CLUST": 99
+            "long": -117.4429513
           }
         },
         {
@@ -4916,12 +2932,12 @@
             "COLOR": "#003DA5",
             "PYCOLOR": "darkblue",
             "lat": 33.9642567,
-            "long": -117.3397858,
-            "APT_CLUST": 99
+            "long": -117.3397858
           }
         }
       ]
     };
+
 
     
 
@@ -4934,24 +2950,23 @@
         onEachFeature: onEachFeature,
         pointToLayer: function (feature, latlng){
           return L.circleMarker(latlng, {
-            radius: 21,
-            fillColor: "#ffffff",
-            color: feature.properties.COLOR,
-            weight: 3,
+            radius: 5,
+            fillColor: feature.properties.COLOR,
+            color: "#FFFFFF",
+            weight: 2,
             opacity: 1,
-            fillOpacity: 0.25
+            fillOpacity: 0.8
           })
         }
     }).addTo(map);
 
     function createCustomMarker(feature, latlng){
-      var iconHtml = "<i class = 'fa fa-solid fa-" + feature.properties.ICON + " fa-2x' style='color: " + feature.properties.COLOR + "; text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;'></i>";
+      var iconHtml = "<i class = 'fa fa-solid " + feature.properties.ICON + " fa-2x' style = 'color: " + feature.properties.COLOR + "'></i>";
 
       var customIcon = L.divIcon({
         html: iconHtml,
         className: "newIcons",
-        iconSize: [20, 20],
-        iconAnchor: [14, 12]
+        iconSize: [20, 20]
       });
       return L.marker(
         latlng, 

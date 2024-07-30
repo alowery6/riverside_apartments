@@ -1,0 +1,90 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4013208,
+          33.9459832
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "LONG_NAME": "LAX",
+        "LIFESTYLE_CAT": "Airport",
+        "ICONHTML": "<i class = 'fa fa-solid fa-plane-departure'></i>",
+        "lat": 33.9459832,
+        "long": -118.4013208
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3839894,
+          37.622452
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "LONG_NAME": "SFO",
+        "LIFESTYLE_CAT": "Airport",
+        "ICONHTML": "<i class = 'fa fa-solid fa-plane-departure'></i>",
+        "lat": 37.622452,
+        "long": -122.3839894
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.42981607,
+          33.63740085
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "LONG_NAME": "ATL",
+        "LIFESTYLE_CAT": "Airport",
+        "ICONHTML": "<i class = 'fa fa-solid fa-plane-departure'></i>",
+        "lat": 33.63740085,
+        "long": -84.42981607
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.7352219,
+          39.8410082
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "LONG_NAME": "DEN",
+        "LIFESTYLE_CAT": "Airport",
+        "ICONHTML": "<i class = 'fa fa-solid fa-plane-departure'></i>",
+        "lat": 39.8410082,
+        "long": -104.7352219
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1611198,
+          36.0861034
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "LONG_NAME": "LAS",
+        "LIFESTYLE_CAT": "Airport",
+        "ICONHTML": "<i class = 'fa fa-solid fa-plane-departure'></i>",
+        "lat": 36.0861034,
+        "long": -115.1611198
+      }
+    }
+  ]
+}
